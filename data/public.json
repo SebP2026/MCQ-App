@@ -1,0 +1,758 @@
+{
+  "module": "Public Law II",
+  "version": "1.0",
+  "questions": [
+    {
+      "topic": "Judicial Review",
+      "tag": "Amenability",
+      "scenario": "The Granville Sports Licensing Association (GSLA) is a self-regulatory body established voluntarily by the sports industry. It has no statutory basis but is responsible for licensing all professional sports agents operating in the country. Priya, a professional agent, has had her licence revoked by the GSLA following a disciplinary hearing.",
+      "stem": "Which of the following best describes whether the GSLA's decision is amenable to judicial review?",
+      "options": {
+        "A": "The decision is amenable to JR because any body that affects a person's livelihood is automatically exercising a public function.",
+        "B": "The decision is amenable to JR only if the GSLA receives government funding.",
+        "C": "The decision is not amenable to JR because the GSLA has no statutory powers and was not created by Parliament.",
+        "D": "The decision is amenable to JR because the GSLA is exercising a public function in regulating an important area of economic life, and but for its existence Parliament would likely have had to intervene.",
+        "E": "The decision is not amenable to JR because sporting bodies are always treated as private, as confirmed by the Jockey Club case."
+      },
+      "correct": "D",
+      "explanation": "D is correct. Under the Datafin principle, a body may be subject to JR even without statutory powers if it is exercising a public function — particularly one of a governmental character. The 'but for' test asks whether Parliament would have had to intervene if the body did not exist. Regulating professional sports agents across the industry is a sufficiently public and governmental function. C: Incorrect — statutory basis is not a prerequisite; Datafin established JR can apply to non-statutory bodies exercising public functions. E: Incorrect — the Jockey Club case is not a blanket rule; it turned on the fact that the Club's power arose purely from private agreement and was not governmental in nature. Sports bodies must be assessed on their specific functions. A: Incorrect — affecting a person's livelihood does not automatically make a function public; the test is whether the function is sufficiently public and governmental in character. B: Incorrect — government funding is a factor but not the determining criterion; the source and nature of the power is what matters.",
+      "id": 1
+    },
+    {
+      "topic": "Judicial Review",
+      "tag": "Standing",
+      "scenario": "The Ferndale Environmental Coalition (FEC) is an NGO that campaigns against industrial pollution. The National Licensing Board (NLB) has granted an industrial licence to a chemical plant located near a residential area. The FEC wishes to challenge the grant of the licence by way of judicial review. No individual member of the FEC lives near the plant.",
+      "stem": "Which of the following best describes FEC's prospects of establishing standing to bring a judicial review?",
+      "options": {
+        "A": "FEC is likely to have standing — the courts have recognised that pressure groups with a genuine interest in the matter and expertise in the relevant area can have sufficient interest under s 31(3) SCA 1981.",
+        "B": "FEC has standing because any person or organisation can challenge any public law decision.",
+        "C": "FEC has no standing because none of its members will be directly affected by the decision.",
+        "D": "FEC has standing only if it can show it has a private law right that has been infringed.",
+        "E": "FEC has no standing because only individuals, not organisations, can bring judicial review proceedings."
+      },
+      "correct": "A",
+      "explanation": "A is correct. S 31(3) Senior Courts Act 1981 requires an applicant to have 'sufficient interest' in the matter. The courts have adopted a liberal approach, particularly for pressure groups with expertise and a genuine concern in the relevant area of public importance. C: Incorrect — the courts do not require direct personal impact; sufficient interest can arise in other ways, including organisational interest in the subject matter. B: Incorrect — not everyone can challenge every decision; the sufficient interest threshold must still be met. D: Incorrect — JR standing does not require a private law right; it is a public law concept assessed flexibly. E: Incorrect — organisations and pressure groups can and regularly do bring JR claims.",
+      "id": 2
+    },
+    {
+      "topic": "Judicial Review",
+      "tag": "Time limits",
+      "scenario": "Ollie received a decision from the Regional Transport Authority (RTA) on 1 March refusing his application for a public transport operator's licence. He consulted a solicitor in April and was advised that he had grounds for judicial review. His solicitor submitted the claim on 1 October of the same year.",
+      "stem": "Which of the following best describes whether Ollie's claim is likely to be permitted to proceed?",
+      "options": {
+        "A": "Ollie's claim will be refused only if the RTA can show it has suffered prejudice from the delay.",
+        "B": "Ollie's claim will proceed because the Senior Courts Act 1981 gives the court an absolute discretion to allow late claims.",
+        "C": "Ollie's claim will proceed because he did not know he had grounds for JR until April, which resets the time limit.",
+        "D": "Ollie's claim will proceed because three months runs from when legal advice was obtained, not from the decision.",
+        "E": "Ollie's claim will likely be refused permission — JR claims must be brought promptly and in any event within three months; a 14-month delay without good reason is likely fatal to permission."
+      },
+      "correct": "E",
+      "explanation": "E is correct. CPR 54.5 requires that JR claims be brought promptly and in any event no later than three months from the date when the grounds arose. The decision was made on 1 March, so the claim had to be filed by 1 June at the latest. Filing in October is well outside this limit, and ignorance of legal rights is generally not a sufficient reason for extension. B: Incorrect — the discretion to extend time is not absolute; it is exercised only where there is good reason and no substantial prejudice would arise. C: Incorrect — the time limit runs from the date of the decision, not from the date the applicant becomes aware of potential grounds. D: Incorrect — receipt of legal advice does not restart the limitation period. A: Incorrect — while prejudice to the respondent is a relevant factor, it is not the only reason a claim can be refused; the court considers the overall public interest in good administration.",
+      "id": 3
+    },
+    {
+      "topic": "Judicial Review",
+      "tag": "Ouster clauses",
+      "scenario": "The Coastal Development Tribunal Act contains the following provision: 'A determination made by the Coastal Development Tribunal shall not be called into question in any court of law.' The Tribunal has misinterpreted the definition of 'coastal zone' in its enabling legislation, granting a permit that it had no power to grant. Marcus wishes to challenge the determination by way of judicial review.",
+      "stem": "Which of the following best describes the effect of the ouster clause on Marcus's claim?",
+      "options": {
+        "A": "Marcus can challenge the determination, but only if he first exhausts all internal appeal mechanisms.",
+        "B": "Marcus can challenge the determination because ouster clauses are construed narrowly and Parliament is presumed not to intend to exclude judicial review of errors of law.",
+        "C": "The ouster clause is fully effective and prevents any judicial review of the Tribunal's determination.",
+        "D": "Marcus can challenge the determination because ouster clauses can never validly exclude judicial review.",
+        "E": "The ouster clause is effective, but Marcus can still seek damages for the error of law."
+      },
+      "correct": "B",
+      "explanation": "B is correct. Following Anisminic, courts hold that a body which exceeds its legal powers produces a nullity — a 'purported determination' — not a true 'determination'. The ouster clause protects valid determinations, not null and void ones. Courts apply a strong presumption against reading statutory language as excluding JR. E: Incorrect — under the Anisminic approach, the clause cannot protect a decision infected by jurisdictional error. D: Incorrect — ouster clauses can in principle validly exclude JR, especially time-limit ousters; the courts engage in a close reading of their scope. C: Incorrect — damages are not an automatic remedy in JR and are particularly difficult to obtain; the premise of the answer is also wrong since the clause is not fully effective. A: Incorrect — exhaustion of alternative remedies is a separate principle and does not apply as a pre-condition to challenge an ultra vires decision.",
+      "id": 4
+    },
+    {
+      "topic": "Judicial Review",
+      "tag": "Remedies",
+      "scenario": "The Birchwood Licensing Committee failed to follow the correct statutory procedure when it rejected Fatima's application for a market trader's licence. Fatima seeks judicial review. She wants the court to invalidate the Committee's decision so that it can be retaken lawfully.",
+      "stem": "Which remedy would be most appropriate to achieve Fatima's objective?",
+      "options": {
+        "A": "A mandatory order, which compels the Committee to grant her a licence.",
+        "B": "An injunction, which prevents the Committee from ever considering her application again.",
+        "C": "A quashing order, which invalidates the impugned decision and requires the Committee to reconsider it lawfully, is the most appropriate remedy for a decision taken in breach of procedural fairness.",
+        "D": "A declaration, which states the correct legal position but does not affect the validity of the Committee's decision.",
+        "E": "Damages, awarded to compensate Fatima for the loss of the licence."
+      },
+      "correct": "C",
+      "explanation": "C is correct. A quashing order invalidates the impugned decision and sends the matter back to the decision-maker to decide afresh in accordance with law. This is precisely what Fatima wants. A: Incorrect — a mandatory order compels performance of a duty; it cannot dictate the outcome of a discretionary decision such as the grant of a licence. B: Incorrect — an injunction prevents or requires an act; prohibiting all future consideration would go far beyond what Fatima seeks and would be disproportionate. D: Incorrect — a declaration states legal rights without affecting the validity of the decision; Fatima wants the decision invalidated, not merely commented upon. E: Incorrect — damages are very difficult to obtain in JR and are not available simply because there has been procedural error; there is no indication Fatima has a private law cause of action.",
+      "id": 5
+    },
+    {
+      "topic": "Illegality",
+      "tag": "Ultra vires / Simple illegality",
+      "scenario": "The Moorfield District Council has statutory power to provide recreational facilities for residents. Relying on this power, the Council has set up a commercial fitness consultancy business that charges the public for personal training sessions delivered by Council employees.",
+      "stem": "Which of the following best describes the lawfulness of the Council's action?",
+      "options": {
+        "A": "The action is lawful because providing recreational facilities includes offering personal fitness advice.",
+        "B": "The action is unlawful as ultra vires — the statutory power to provide recreational facilities does not extend to operating a commercial restaurant open to the general public; the council has acted outside its lawful powers.",
+        "C": "The action is lawful because it is commercially beneficial and benefits residents indirectly.",
+        "D": "The action is lawful because local authorities have general powers to act in the interests of their residents.",
+        "E": "The action is unlawful only if residents have complained about the use of public funds."
+      },
+      "correct": "B",
+      "explanation": "B is correct. Under the ultra vires doctrine, a public body may only act within its statutory powers. The power to provide recreational facilities does not extend to running a commercial personal training consultancy; analogously, in Attorney General v Fulham Corporation the power to provide washhouses did not extend to a laundry business. A reasonably incidental action must be genuinely consequential upon an existing power, not a separate commercial enterprise. A: Incorrect — general fitness advice might be incidental, but running a commercial consultancy generating income is a materially different activity. D: Incorrect — local authorities do not have a freestanding general power to act in residents' interests; they require specific statutory authority. C: Incorrect — commercial benefit or indirect advantage to residents does not cure an ultra vires act. E: Incorrect — the lawfulness of a public body's action depends on its legal powers, not on whether complaints have been made.",
+      "id": 6
+    },
+    {
+      "topic": "Illegality",
+      "tag": "Fettering discretion",
+      "scenario": "The Regional Arts Council has a statutory discretion to award grants to local arts organisations. The Council adopts a policy stating that it will only fund organisations that have been operating for more than five years and will refuse all applications from newly established bodies 'without exception'.",
+      "stem": "Which of the following best describes whether the Council's policy is lawful?",
+      "options": {
+        "A": "The policy is lawful because public bodies are entitled to set consistent criteria to aid decision-making.",
+        "B": "The policy is unlawful as a fettering of discretion — a public authority may adopt a policy to guide decisions but must always retain the ability to consider individual cases on their merits.",
+        "C": "The policy is lawful because Parliament granted the Council the power to set its own criteria.",
+        "D": "The policy is unlawful because public bodies cannot adopt policies at all when exercising a statutory discretion.",
+        "E": "The policy is lawful provided the Council applies it consistently to all applicants."
+      },
+      "correct": "B",
+      "explanation": "B is correct. A body exercising a statutory discretion may adopt a policy to guide its decisions, but it must not apply that policy so rigidly that it refuses to consider exceptional circumstances or individual cases on their merits. By stating it will refuse all new organisations 'without exception', the Council has fettered its discretion. A: Incorrect — while consistent criteria are permissible, the policy must not be applied mechanically; the body must always be willing to consider departure in appropriate cases. C: Incorrect — consistency in applying a rigid policy does not cure the fettering; the flaw is the absence of any genuine individual consideration. E: Incorrect — policies are permissible and often helpful; the problem arises only when they are applied without exceptions. D: Incorrect — the statutory power to award grants does not include the power to adopt a policy that prevents genuine exercise of that discretion.",
+      "id": 7
+    },
+    {
+      "topic": "Illegality",
+      "tag": "Irrelevant considerations",
+      "scenario": "The Millhaven Planning Authority is deciding whether to approve an application for a new community library. In reaching its decision, the Committee takes into account the political embarrassment that rejecting the application would cause to the ruling council group ahead of an election, and the financial savings the Authority would make if the application were refused.",
+      "stem": "Which of the following best describes the lawfulness of the Authority's decision-making process?",
+      "options": {
+        "A": "The decision is unlawful because the Authority took into account irrelevant considerations — the financial interests of the private developer are not a relevant factor under the licensing statute, and this vitiates the decision.",
+        "B": "The decision is lawful because the Authority did not ignore any relevant considerations.",
+        "C": "The decision is lawful because planning authorities have a wide discretion and may consider political factors.",
+        "D": "The decision is unlawful only if the relevant considerations outweighed the irrelevant ones.",
+        "E": "The decision is lawful because financial savings are always a legitimate consideration for public bodies."
+      },
+      "correct": "A",
+      "explanation": "A is correct. Illegality encompasses the taking into account of irrelevant considerations and the failure to take into account relevant ones. Political embarrassment and electoral advantage are not legitimate planning considerations. Financial savings unrelated to proper planning objectives are equally irrelevant. A decision infected by irrelevant considerations is unlawful. C: Incorrect — while planning authorities have discretion, that discretion is constrained to relevant planning considerations. E: Incorrect — financial savings can be a relevant consideration for some public bodies, but only where they relate to the proper subject matter of the decision; here, they do not relate to planning merits. B: Incorrect — once an irrelevant consideration has been taken into account and affected the decision, the decision is flawed; there is no 'balance' test. D: Incorrect — ignoring relevant considerations is one ground of illegality, but taking into account irrelevant considerations is equally capable of making a decision unlawful.",
+      "id": 8
+    },
+    {
+      "topic": "Illegality",
+      "tag": "Errors of law",
+      "scenario": "The Harwick Housing Benefit Tribunal is responsible for determining applications for housing benefit under the Housing Support Act. The Tribunal interpreted the phrase 'permanent residence' in the Act to mean that only applicants who owned their home could qualify. This interpretation led it to reject Sofia's application even though she had lived in rented accommodation in the same property for 15 years.",
+      "stem": "Which of the following best describes whether Sofia has grounds for judicial review?",
+      "options": {
+        "A": "Sofia has no grounds because the Tribunal has specialist expertise in housing matters and the courts will defer to its interpretation.",
+        "B": "Sofia has grounds for JR based on an error of law — the Tribunal misinterpreted the statutory phrase 'permanent home', which is a question of law reviewable by the court regardless of the Tribunal's specialist expertise.",
+        "C": "Sofia has no grounds because errors of law by specialist tribunals can never be reviewed by the Administrative Court.",
+        "D": "Sofia has grounds for JR only if the error of law caused financial loss.",
+        "E": "Sofia may have grounds only if she can show the error of law related to the Tribunal's jurisdiction."
+      },
+      "correct": "B",
+      "explanation": "B is correct. Following Anisminic and ex parte Page, all errors of law made by public decision-makers are in principle susceptible to judicial review. The Tribunal's narrow interpretation of 'permanent residence' to require home ownership was a misdirection in law and would be grounds for review. A: Incorrect — while courts give some deference to specialist bodies on certain matters, errors of law going to the correct interpretation of a statutory provision are reviewable. C: Incorrect — specialist tribunals are not immune from JR for errors of law; see ex parte Page. E: Incorrect — the pre-Anisminic distinction between jurisdictional and non-jurisdictional errors of law was abolished; all errors of law are potentially reviewable. D: Incorrect — financial loss is not a prerequisite for JR of an error of law.",
+      "id": 9
+    },
+    {
+      "topic": "Illegality",
+      "tag": "Unlawful delegation",
+      "scenario": "The Westgate Licensing Board is a statutory body with the exclusive power to grant liquor licences under the Licensing Regulation Act. Facing a backlog, the Board instructs its Chief Officer to determine all routine licence renewal applications and to notify applicants of the outcome. The Chief Officer is not given any express authority by statute to make such decisions.",
+      "stem": "Which of the following best describes the lawfulness of this arrangement?",
+      "options": {
+        "A": "The arrangement is unlawful — the delegatus non potest delegare principle provides that, absent statutory authority, a body entrusted with a statutory discretion cannot sub-delegate that power to another body.",
+        "B": "The arrangement is lawful because all public bodies have an implied power to delegate routine administrative tasks.",
+        "C": "The arrangement is lawful under the Carltona principle, which allows ministerial powers to be exercised by civil servants.",
+        "D": "The arrangement is lawful provided the Chief Officer reports back to the Board on each decision made.",
+        "E": "The arrangement is lawful because the Board retains overall supervisory responsibility."
+      },
+      "correct": "A",
+      "explanation": "A is correct. The general principle is delegatus non potest delegare — a body entrusted with a statutory power cannot delegate it without express authority. The Westgate Licensing Board has been given exclusive statutory power over licensing; it cannot delegate this to the Chief Officer without statutory authorisation. E: Incorrect — retaining supervisory responsibility does not validate a delegation that is unauthorised by statute. C: Incorrect — the Carltona principle applies specifically to central government ministers and their departments; it does not apply to statutory bodies such as licensing boards. B: Incorrect — there is no general implied power for statutory bodies to sub-delegate their core decision-making powers. D: Incorrect — requiring reports does not confer legality on an unlawful delegation.",
+      "id": 10
+    },
+    {
+      "topic": "Unreasonableness",
+      "tag": "Wednesbury unreasonableness",
+      "scenario": "The Eastwick Social Services Department has a policy of refusing all applications for additional care funding from individuals aged over 70, regardless of their level of need, on the grounds that limited resources must be targeted at younger people with 'more productive futures'.",
+      "stem": "Which of the following best describes whether this policy is susceptible to challenge on grounds of unreasonableness?",
+      "options": {
+        "A": "The policy is unlawful as Wednesbury unreasonable — no reasonable decision-maker could adopt a blanket policy of refusing all grants to applicants over 70 without any individual assessment of their circumstances.",
+        "B": "The policy is lawful because social and economic decisions attract the most deferential standard of review.",
+        "C": "The policy may be unlawful but only if the applicant can show that it was made in bad faith.",
+        "D": "The policy is lawful because resource allocation decisions are non-justiciable.",
+        "E": "The policy is lawful because Wednesbury unreasonableness only applies to individual decisions, not policies."
+      },
+      "correct": "A",
+      "explanation": "A is correct. The Wednesbury standard asks whether a decision is so unreasonable that no reasonable authority could have made it. A blanket refusal of all care funding based purely on age, disregarding individual need, is a paradigm example of irrational decision-making. D: Incorrect — resource allocation decisions are justiciable, though courts give some deference; but a total and arbitrary age-based exclusion goes beyond the range of reasonable responses. E: Incorrect — Wednesbury unreasonableness applies to policies as well as individual decisions. C: Incorrect — bad faith is a separate ground; unreasonableness does not require proof of subjective bad faith. B: Incorrect — while social and economic policies attract a lower intensity of review ('super-Wednesbury'), they are not immune from challenge; this policy is extreme enough to fail even a deferential standard.",
+      "id": 11
+    },
+    {
+      "topic": "Unreasonableness",
+      "tag": "Proportionality",
+      "scenario": "The Home Office has introduced a policy under domestic immigration regulations requiring all asylum seekers to report to a processing centre daily, regardless of their personal circumstances, including those with severe physical disabilities. The applicants argue the policy violates their rights under Article 8 ECHR.",
+      "stem": "Which of the following best describes the standard of review that a court would apply to assess this policy?",
+      "options": {
+        "A": "The court would apply Wednesbury unreasonableness but at a heightened level of scrutiny because fundamental rights are engaged.",
+        "B": "The court would decline to review the policy because immigration decisions are non-justiciable.",
+        "C": "The court would apply the proportionality test but with no reference to Wednesbury, as the two tests have been formally merged.",
+        "D": "The court would apply Wednesbury unreasonableness because this is an immigration policy and courts must defer to the executive.",
+        "E": "The court would apply the proportionality test because Art 8 is engaged — asking whether the interference is prescribed by law, pursues a legitimate aim, and is necessary and proportionate in a democratic society."
+      },
+      "correct": "E",
+      "explanation": "E is correct. Where Convention rights are engaged, the relevant standard is proportionality rather than Wednesbury unreasonableness. For qualified rights such as Art 8, the court assesses whether any interference is prescribed by law, pursues a legitimate aim, and is necessary in a democratic society. D: Incorrect — while the court gives weight to executive expertise in immigration, the Wednesbury standard is displaced when ECHR rights are in play. A: Incorrect — 'sub-Wednesbury' heightened scrutiny is a domestic common law approach applied before or alongside HRA analysis; when Convention rights are directly engaged, proportionality is the applicable test (R (Daly)). B: Incorrect — immigration policies are justiciable and regularly reviewed by courts, particularly where ECHR rights are at stake. C: Incorrect — proportionality and Wednesbury have not been formally merged; the courts have declined to formally abolish Wednesbury, and the two standards may apply in different contexts.",
+      "id": 12
+    },
+    {
+      "topic": "Procedural Impropriety",
+      "tag": "Duty to act fairly",
+      "scenario": "Callum was employed by the Lakeside Regulatory Agency for twelve years. Following a complaint from a member of the public, the Agency's Director of Compliance conducted an investigation and, without informing Callum of the complaint or its nature, dismissed him for professional misconduct.",
+      "stem": "Which of the following best describes whether there has been a breach of the duty of procedural fairness?",
+      "options": {
+        "A": "There has been no breach because the duty to act fairly only arises in judicial proceedings, not employment decisions.",
+        "B": "There has been no breach because the Director of Compliance conducted an investigation before reaching a decision.",
+        "C": "There has been a breach only if Callum can show that he would have avoided dismissal had he been given a hearing.",
+        "D": "There has been no breach because the Director has discretion over how to conduct misconduct proceedings.",
+        "E": "There has been a procedural fairness breach — given the serious consequences of dismissal after a long period of employment, fairness required an oral hearing, legal representation, and written reasons before the decision was made."
+      },
+      "correct": "E",
+      "explanation": "E is correct. Since Ridge v Baldwin and Re HK, the duty to act fairly applies broadly to administrative decisions affecting a person's rights, not only to judicial decisions. Dismissal from long-term employment for misconduct is a serious adverse decision; fairness requires Callum to be informed of the allegations and given a genuine opportunity to respond. B: Incorrect — conducting an investigation behind the affected person's back, without informing him, does not satisfy the requirements of procedural fairness. A: Incorrect — the historical limitation to judicial decisions was rejected in Ridge v Baldwin; fairness now applies to administrative decisions based on their impact. C: Incorrect — the court does not require the applicant to prove that the outcome would have differed; the right to a fair hearing is not contingent on showing prejudice in this way. D: Incorrect — discretion over procedure does not override the common law duty to act fairly in making decisions that seriously affect a person's rights.",
+      "id": 13
+    },
+    {
+      "topic": "Procedural Impropriety",
+      "tag": "Rule against bias",
+      "scenario": "The Northfield Borough Council Planning Committee is determining an application to build a supermarket on a site in which two of its five members hold a direct financial interest, as they own shares in the development company. The other three members have no financial interest. The planning committee votes 3-2 in favour of granting permission.",
+      "stem": "Which of the following best describes the legal position?",
+      "options": {
+        "A": "The decision is flawed because the two members with a direct financial interest should have been automatically disqualified from participating — automatic disqualification applies where a decision-maker has a pecuniary interest in the outcome.",
+        "B": "The decision is flawed only if an objective observer would conclude there was a real possibility of bias.",
+        "C": "The decision is valid because the two interested members were in the minority and the outcome would have been the same without them.",
+        "D": "The decision is valid because local councillors are entitled to have financial interests that relate to planning decisions.",
+        "E": "The decision is valid because only judges, not councillors, are subject to the rule against bias."
+      },
+      "correct": "A",
+      "explanation": "A is correct. The rule against direct bias (nemo judex in causa sua) provides that a decision-maker with a direct pecuniary interest in the outcome of a decision is automatically disqualified from participating, regardless of whether that interest affected the outcome. The two members with shares in the development company had a direct financial interest and should not have participated. C: Incorrect — automatic disqualification applies regardless of whether the interested members were in the majority; their participation taints the entire process. D: Incorrect — councillors may have financial interests in general, but they must not participate in decisions in which they have a direct personal financial stake. B: Incorrect — the objective observer test from Porter v Magill applies to indirect bias; direct financial interest leads to automatic disqualification without that further enquiry. E: Incorrect — the rule against bias applies to all public decision-making bodies, as confirmed in Porter v Magill.",
+      "id": 14
+    },
+    {
+      "topic": "Procedural Impropriety",
+      "tag": "Statutory procedural requirements",
+      "scenario": "The Fairvale Compulsory Purchase Order 2024 required the relevant authority to send written notice of the order to each affected landowner 'not less than 28 days' before the hearing. The authority sent the notice 18 days before the hearing. Delia, one of the landowners, argues the order is invalid.",
+      "stem": "Which of the following best describes the likely outcome of Delia's challenge?",
+      "options": {
+        "A": "Whether the order is invalid depends on whether Parliament intended the notice requirement to be mandatory or merely directory — if mandatory, non-compliance renders the order void; if directory, it may be merely voidable or valid despite the breach.",
+        "B": "The order is invalid because any breach of a statutory procedural requirement automatically invalidates the decision.",
+        "C": "The order is invalid because a statutory requirement expressed as 'not less than 28 days' must always be treated as mandatory.",
+        "D": "The order is automatically valid because Delia received the notice and was able to attend the hearing.",
+        "E": "The order is valid because courts no longer review compliance with procedural statutory rules."
+      },
+      "correct": "A",
+      "explanation": "A is correct. The modern approach, derived from R v Soneji, moves away from a mechanical mandatory/directory classification. Courts ask whether, in light of the consequences of non-compliance, Parliament would have intended invalidity. A 10-day shortfall in a notice requirement for a compulsory purchase is significant, but the court would examine the actual impact on Delia's ability to participate and whether the purpose of the requirement was frustrated. B: Incorrect — breach of a procedural requirement does not automatically invalidate a decision; the Soneji flexible approach applies. D: Incorrect — the fact that Delia received notice and attended is relevant to the consequences, but it does not make the breach automatically valid. C: Incorrect — the mandatory/directory distinction has been replaced by the flexible Soneji approach; the language of the provision is a factor but not determinative. E: Incorrect — the courts regularly review compliance with statutory procedural requirements.",
+      "id": 15
+    },
+    {
+      "topic": "Legitimate Expectation",
+      "tag": "Procedural legitimate expectation",
+      "scenario": "The Riverdale Health Authority had, for the past eight years, consulted local patient advocacy groups before making any changes to community health services. The Authority has announced it will close the Riverdale Walk-in Centre without carrying out any consultation. The Riverdale Patient Forum (RPF) wishes to challenge this decision.",
+      "stem": "Which of the following best describes RPF's strongest argument?",
+      "options": {
+        "A": "The RPF can argue that the closure itself is unlawful as a substantive matter — even if the procedure was fair, the Authority's decision to close the service may be challenged as irrational or disproportionate on its merits.",
+        "B": "The RPF has no standing to bring a challenge on behalf of patients — only individuals whose own rights or interests are directly affected have sufficient interest to bring a judicial review claim; representative bodies cannot sue on behalf of others.",
+        "C": "The RPF has no legal remedy because the Authority's past practice was informal and not legally binding — a legitimate expectation can only arise from a clear and unambiguous representation or settled practice by the public authority itself.",
+        "D": "The RPF can argue only that the failure to consult was irrational under Wednesbury — without a specific promise or settled practice of consultation, the RPF cannot establish a legitimate expectation and must rely on general irrationality review.",
+        "E": "The RPF can argue a procedural legitimate expectation — the Authority's consistent practice of consultation before major decisions gives rise to an expectation that the practice will be followed or advance notice of departure given."
+      },
+      "correct": "E",
+      "explanation": "E is correct. Under GCHQ and subsequent cases, a legitimate expectation may arise from an established practice as well as from an express promise. An eight-year consistent practice of consulting patient groups is capable of generating a procedural legitimate expectation. Frustration of a procedural LE requires compelling public interest reasons, assessed on grounds of fairness. D: Incorrect — the courts recognise that an established practice can generate a legitimate expectation, even where no express promise has been made. C: Incorrect — while Wednesbury might also be engaged, the legitimate expectation argument is stronger and more directly applicable to the procedural failure. B: Incorrect — interest groups with a genuine concern can have standing in JR proceedings; RPF, representing patients, likely has sufficient interest. A: Incorrect — the RPF's challenge is about the procedure used, not the substantive merits of the closure decision itself.",
+      "id": 16
+    },
+    {
+      "topic": "Legitimate Expectation",
+      "tag": "Substantive legitimate expectation",
+      "scenario": "Gemma applied to the Inland Revenue Authority for an advance tax ruling, which confirmed in writing that her proposed business structure would not attract capital gains liability. Relying on this ruling, Gemma invested £500,000 restructuring her business. Two years later, the Authority wrote to her stating it was revoking the ruling and would seek to impose a capital gains liability.",
+      "stem": "Which of the following best describes Gemma's strongest legal argument?",
+      "options": {
+        "A": "Gemma has no recourse because tax rulings are always subject to change and no legitimate expectation can arise from them.",
+        "B": "Gemma can argue a substantive legitimate expectation — the written ruling was a clear, specific promise on which she detrimentally relied, and departing from it without compelling justification would be an abuse of power.",
+        "C": "Gemma can argue a substantive legitimate expectation, but the court will only intervene if the Authority's decision was Wednesbury unreasonable.",
+        "D": "Gemma can argue only that the withdrawal of the ruling was procedurally unfair because she was not given advance notice.",
+        "E": "Gemma has no legal recourse because public bodies are always free to change their legal positions."
+      },
+      "correct": "B",
+      "explanation": "B is correct. Following ex parte Coughlan and ex parte Preston, a clear written representation from a public body on which an individual has detrimentally relied can give rise to a substantive legitimate expectation. The court can intervene where frustrating that expectation amounts to an abuse of power, weighing the requirements of fairness against any overriding public interest justification. E: Incorrect — public bodies are not free to resile from specific promises made to individuals where there has been detrimental reliance without sufficient justification. D: Incorrect — while procedural fairness is also engaged, the stronger argument is substantive: Gemma is entitled to the benefit itself, not merely a fair process for its withdrawal. A: Incorrect — specific written tax rulings on which individuals rely are capable of generating legitimate expectations (ex parte Preston). C: Incorrect — under Coughlan, where a substantive LE is at stake, the court applies a higher standard than bare Wednesbury: it assesses whether the frustration was so unfair as to amount to an abuse of power.",
+      "id": 17
+    },
+    {
+      "topic": "Human Rights Act",
+      "tag": "Structure and section 6",
+      "scenario": "The Birchfield Children's Home is a privately run residential care facility operating under a contract with the local authority under the Children Services Act. The local authority was under a statutory duty to arrange residential care. Residents argue that the Home has acted in breach of their rights under Article 8 ECHR.",
+      "stem": "Which of the following best describes whether the Birchfield Children's Home is a 'public authority' for the purposes of section 6 HRA 1998?",
+      "options": {
+        "A": "The Home is clearly a public authority because it provides services to vulnerable people on behalf of the state.",
+        "B": "The Home may be a functional public authority under s 6(3)(b) HRA if, in performing residential care under the contract, it is exercising functions of a public nature — in which case it must act compatibly with Convention rights.",
+        "C": "The Home is a public authority only if it receives more than 50% of its funding from the local authority.",
+        "D": "The Home is not a public authority because the local authority's statutory duty was discharged once it contracted the service out.",
+        "E": "The Home is clearly not a public authority because it is privately owned and profit-making."
+      },
+      "correct": "B",
+      "explanation": "B is correct. S 6(3)(b) HRA extends the definition of 'public authority' to hybrid bodies exercising functions of a public nature. The question is whether the specific function in question is public in character. Courts will consider whether there is statutory underpinning, integration into a statutory framework, and the governmental nature of the function. The analysis is fact-specific. A: Incorrect — providing services to vulnerable people is not automatically sufficient; the function must be sufficiently public and governmental in character. D: Incorrect — private ownership does not automatically exclude a body from being a public authority for HRA purposes if it is exercising public functions. E: Incorrect — contracting out does not automatically insulate the private provider from HRA obligations; it depends on whether the function retains a public character. C: Incorrect — there is no funding-based threshold in the HRA test for public authority status.",
+      "id": 18
+    },
+    {
+      "topic": "Human Rights Act",
+      "tag": "Section 3 interpretation",
+      "scenario": "Section 14 of the Housing Benefits Act provides that 'a person shall only be eligible for housing benefit if they are in full-time employment'. The Shelton Housing Tribunal has interpreted this provision to mean that Amir, who works part-time due to a disability, is ineligible. Amir argues that this interpretation breaches his rights under Article 14 ECHR read with Article 1 Protocol 1.",
+      "stem": "Which of the following best describes the courts' duty under section 3 HRA in this situation?",
+      "options": {
+        "A": "The court should make an immediate declaration of incompatibility under s 4 because the provision appears to breach Art 14.",
+        "B": "S 3 HRA only applies to primary legislation enacted after the HRA came into force in 2000.",
+        "C": "Under s 3 HRA, the court must apply s 14 as written but recommend legislative amendment to Parliament.",
+        "D": "Under s 3 HRA, the court must read s 14 compatibly with Convention rights so far as possible, even reading down or implying words; a declaration of incompatibility under s 4 is a last resort.",
+        "E": "The court must apply s 14 as written because Parliament's intention is clear and cannot be altered by the courts."
+      },
+      "correct": "D",
+      "explanation": "D is correct. S 3 HRA imposes a strong duty to read legislation in a Convention-compatible way 'so far as it is possible to do so', regardless of whether the language is ambiguous. As confirmed in R v A and Ghaidan, the court can read down, imply words, and adopt linguistically strained interpretations. A declaration of incompatibility is a last resort. A: Incorrect — s 3 expressly requires the court to strive for a compatible interpretation even where the language appears clear. E: Incorrect — s 4 should be a last resort; the court must first exhaust the s 3 interpretative obligation. C: Incorrect — s 3 empowers the court to interpret, not merely recommend; Parliament expressly chose a stronger obligation than a 'reasonable interpretation' model. B: Incorrect — s 3(2)(a) HRA explicitly states it applies to legislation 'whenever enacted', including pre-HRA statutes.",
+      "id": 19
+    },
+    {
+      "topic": "Human Rights Act",
+      "tag": "Section 4 declarations of incompatibility",
+      "scenario": "The Criminal Evidence Restriction Act provides that in terrorism cases, no defendant may call expert evidence as to their state of mind. Courts have been unable to interpret this provision in a Convention-compatible way under s 3 HRA. The applicant contends this breaches Art 6 ECHR.",
+      "stem": "Which of the following best describes the effect of a declaration of incompatibility made under s 4 HRA?",
+      "options": {
+        "A": "A s 4 declaration states that the provision is incompatible with a Convention right but does not affect its validity or continuing operation — it signals Parliament to amend the law but provides no direct remedy for Callum.",
+        "B": "A s 4 declaration gives the applicant an immediate right to damages under s 8 HRA.",
+        "C": "A s 4 declaration is only available in the Supreme Court.",
+        "D": "A s 4 declaration automatically triggers the government's obligation to repeal or amend the offending provision.",
+        "E": "A s 4 declaration strikes down the provision and renders it of no legal effect from the date of the declaration."
+      },
+      "correct": "A",
+      "explanation": "A is correct. S 4(6) HRA expressly provides that a declaration of incompatibility does not affect the validity, continuing operation or enforcement of the provision, and is not binding on the parties. The legislation remains in force; Parliament retains sovereignty. E: Incorrect — the UK courts cannot strike down primary legislation; this reflects the fundamental principle of parliamentary sovereignty which the HRA preserves. D: Incorrect — s 10 gives ministers a power (not an obligation) to take expedited remedial action where there are compelling reasons; the government is not automatically required to legislate. B: Incorrect — because the s 6(2) defence remains in place when a DOI is made (the authority was acting under primary legislation it could not disapply), the claimant has no s 8 remedy against the public authority. C: Incorrect — s 4 declarations can be made by the High Court, Court of Appeal, and Supreme Court, not exclusively by the Supreme Court.",
+      "id": 20
+    },
+    {
+      "topic": "Human Rights Act",
+      "tag": "Positive obligations",
+      "scenario": "Viktor, a patient detained voluntarily at the Haverton Psychiatric Hospital, repeatedly told nursing staff he intended to take his own life. Despite this, nursing staff did not take additional precautions and Viktor was found having attempted suicide after unsupervised access to medication. He survived but suffered serious injuries.",
+      "stem": "Which of the following best describes the state's obligations under Article 2 ECHR in this situation?",
+      "options": {
+        "A": "Art 2 imposes no obligation in this case because Viktor was not formally detained under mental health legislation.",
+        "B": "Art 2 imposes a positive obligation only where the risk to life is caused by a third party, not by the person themselves.",
+        "C": "Art 2 imposes no positive obligations; it is purely a negative right requiring the state to refrain from taking life.",
+        "D": "Art 2 only applies where death has actually occurred.",
+        "E": "Art 2 may impose a positive operational obligation on the state to take preventative steps where the authorities knew or ought to have known of a real and immediate risk to the life of an identified individual."
+      },
+      "correct": "E",
+      "explanation": "E is correct. Following Osman v UK and Rabone v Pennine Care NHS Trust, Art 2 imposes a positive operational obligation on state bodies to take preventative measures where they knew or ought to have known of a real and immediate risk to life, provided appropriate measures were available. In Rabone, the SC held that the NHS Trust had assumed responsibility and control over the patient even absent formal detention, and the real risk of suicide engaged Art 2. A: Incorrect — Rabone established that formal statutory detention is not required; the assumption of control and responsibility suffices. B: Incorrect — the operational obligation applies to self-inflicted risks as well as threats from third parties; Osman and Rabone both involved self-harm or third party risk situations. C: Incorrect — Art 2 has well-established positive dimensions, including operational and systemic obligations. D: Incorrect — Art 2 can be engaged where there is a real and immediate risk to life, as confirmed in R (Dunne) v Independent Office for Police Conduct, which involved serious injury rather than death.",
+      "id": 21
+    },
+    {
+      "topic": "ECHR Articles",
+      "tag": "Article 3",
+      "scenario": "Tariq is a foreign national who faces deportation to a country where credible evidence shows that prisoners convicted of political crimes are routinely subjected to severe beatings and deprivation of food and water during interrogation. The Home Secretary argues that deporting Tariq serves the UK's national security interests.",
+      "stem": "Which of the following best describes Tariq's position under Article 3 ECHR?",
+      "options": {
+        "A": "The Home Secretary may deport Tariq because national security is a legitimate aim that can justify interference with Art 3.",
+        "B": "Art 3 only applies to treatment inflicted by UK state agents, not to risks arising in foreign countries.",
+        "C": "Tariq can be deported provided the UK obtains diplomatic assurances from the receiving country.",
+        "D": "Tariq cannot be deported if there are substantial grounds for believing he would face a real risk of Art 3 treatment — the prohibition is absolute and applies regardless of the seriousness of his offending.",
+        "E": "Art 3 may apply, but national security interests can outweigh the prohibition in cases of serious risk to the public."
+      },
+      "correct": "D",
+      "explanation": "D is correct. Art 3 is an absolute right — the prohibition on torture and inhuman or degrading treatment cannot be limited or derogated from under any circumstances, including national security. Where there are substantial grounds for believing a person faces a real risk of Art 3 ill-treatment on deportation, the deportation is prohibited. The ECtHR developed this principle in Soering v UK and it applies regardless of the severity of the security justification. B: Incorrect — unlike qualified rights under Arts 8-11, Art 3 admits no exceptions or balancing against legitimate aims. C: Incorrect — the prohibition extends to deportation or extradition where a real risk of Art 3 treatment exists in the receiving country. A: Incorrect — diplomatic assurances may be a relevant factor in assessing risk, but they do not automatically make deportation lawful if the risk remains real. E: Incorrect — Art 3 is absolute; no public interest, however weighty, can justify removing someone to face a real risk of torture or inhuman treatment.",
+      "id": 22
+    },
+    {
+      "topic": "ECHR Articles",
+      "tag": "Article 5",
+      "scenario": "Elena is arrested by police officers on suspicion of involvement in a series of thefts. At the time of arrest, the arresting officer tells her only: 'You are being arrested.' No further information is given. Three hours later, during interview, she is told she is suspected of theft of cash from a series of convenience stores.",
+      "stem": "Which of the following best describes the position under Article 5 ECHR?",
+      "options": {
+        "A": "Art 5(2) requires anyone arrested to be informed promptly, in a language they understand, of the reasons — failure is a violation regardless of whether the detention was otherwise lawful under Art 5(1).",
+        "B": "There is an automatic breach of Art 5(2) because the reasons were not given at the precise moment of arrest.",
+        "C": "There is a clear breach of Art 5(1) because the arrest was carried out without a warrant.",
+        "D": "There is no breach because Elena was eventually told the reasons for her arrest during the interview.",
+        "E": "Art 5(2) is not engaged because Elena was released within 24 hours."
+      },
+      "correct": "A",
+      "explanation": "A is correct. Art 5(2) requires that reasons be given promptly; this does not mean instantaneously at the moment of arrest. As held in Fox, Campbell and Hartley v UK, reasons given during subsequent interview can satisfy Art 5(2) if they are given within a reasonable timeframe and are sufficiently detailed for the person to understand why they were arrested. Simply being told 'you are being arrested' is insufficient, but the question is whether subsequent interview disclosure was prompt enough and adequate. D: Incorrect — stating the outcome is correct is incomplete; the adequacy and promptness of the information given must still be assessed. C: Incorrect — Art 5(1) does not require a warrant for all lawful arrests; the issue is whether the arrest fell within one of the permitted grounds. E: Incorrect — Art 5(2) requires promptness, not simultaneity; subsequent communication can satisfy it if sufficiently prompt and detailed. B: Incorrect — Art 5(2) applies from the moment of arrest and is not contingent on the total duration of detention.",
+      "id": 23
+    },
+    {
+      "topic": "ECHR Articles",
+      "tag": "Article 6",
+      "scenario": "Nadia is facing proceedings in which the Veldmark Regulatory Tribunal will determine whether to disqualify her from practising as a financial adviser. The proceedings involve complex financial evidence. Nadia cannot afford legal representation and has been refused legal aid. She argues this breaches Art 6 ECHR.",
+      "stem": "Which of the following best describes the strength of Nadia's argument?",
+      "options": {
+        "A": "Nadia has no argument because regulatory proceedings are not civil proceedings for the purposes of Art 6.",
+        "B": "Nadia has a strong argument: Art 6 provides a general right to free legal aid in all civil proceedings.",
+        "C": "Nadia has no argument because Art 6 only guarantees a right to legal representation in criminal proceedings.",
+        "D": "Nadia may have a strong Art 6 argument if the proceedings are sufficiently complex and the consequences sufficiently serious that she cannot effectively participate without legal representation — the right to a fair trial may require it.",
+        "E": "Nadia has a strong argument because Art 6(1) guarantees the right to legal representation at public expense in all cases involving a person's livelihood."
+      },
+      "correct": "D",
+      "explanation": "D is correct. Art 6(1) guarantees effective access to justice in civil proceedings, which includes regulatory proceedings determining civil rights (such as the right to practise a profession). Following Airey v Ireland and Benham v UK, the right to effective access may require state-funded legal assistance where the complexity of the case and the severity of the consequence mean the applicant cannot present their case effectively without it. B: Incorrect — Art 6 does not provide a general right to free legal aid in all civil cases; it depends on the facts, including complexity and what is at stake. A: Incorrect — Art 6(3) provides specific minimum rights in criminal cases, but Art 6(1) access to justice extends to civil proceedings. C: Incorrect — regulatory proceedings determining a person's right to practise a profession are civil proceedings engaging Art 6(1). E: Incorrect — the right to funded representation is not automatic in all livelihood cases; it depends on whether effective access can be achieved without representation.",
+      "id": 24
+    },
+    {
+      "topic": "ECHR Articles",
+      "tag": "Article 7",
+      "scenario": "In 2020, the Northgate Assembly enacted the Criminal Conduct (Retrospective Liability) Act, which made it a criminal offence to have participated in an unlicensed financial scheme between 2015 and 2019. Leon participated in such a scheme in 2017, when it was entirely lawful. He is charged under the new Act.",
+      "stem": "Which of the following best describes Leon's position under Article 7 ECHR?",
+      "options": {
+        "A": "Leon has no complaint because Parliament has supreme authority to legislate, including retrospectively.",
+        "B": "Leon has no complaint because Art 7 only prohibits heavier penalties being imposed retrospectively, not the criminalisation of acts.",
+        "C": "Leon has no complaint because Art 7 only applies to torture and inhumane treatment.",
+        "D": "Leon has a strong Art 7 argument — no one shall be held guilty of an offence for an act which did not constitute a criminal offence at the time it was committed, and retrospective criminalisation is absolutely prohibited.",
+        "E": "Leon may have a complaint, but Art 7 permits retrospective criminalisation where it is in the public interest."
+      },
+      "correct": "D",
+      "explanation": "D is correct. Art 7 ECHR enshrines the principle of legality in criminal law: no punishment without law. It prohibits both the retrospective criminalisation of acts that were lawful when committed and the imposition of heavier penalties than those applicable at the time of the offence. Leon's conduct was entirely lawful in 2017; the 2020 Act purports to criminalise it retrospectively, which is a direct violation of Art 7. A: Incorrect — parliamentary sovereignty operates in domestic law, but the UK's obligations under the ECHR and HRA 1998 mean retrospective criminal legislation can be challenged for incompatibility. B: Incorrect — Art 7 prohibits both retrospective criminalisation and retrospective penalty increases; it is not confined to the latter. E: Incorrect — Art 7 is an absolute prohibition; no public interest justification permits retrospective criminalisation of lawful conduct. C: Incorrect — Art 7 concerns the prohibition of punishment without law; Art 3 concerns torture and inhuman treatment.",
+      "id": 25
+    },
+    {
+      "topic": "Human Rights Act",
+      "tag": "Margin of appreciation",
+      "scenario": "The ECtHR is considering a challenge by a religious organisation to domestic legislation in a European state that restricts the wearing of religious symbols in all state schools. The state argues that it is best placed to assess the need for such restrictions given its own social and historical context.",
+      "stem": "Which of the following best describes the relevance of the margin of appreciation doctrine in this context?",
+      "options": {
+        "A": "The margin of appreciation is irrelevant because religious freedom under Art 9 is an absolute right.",
+        "B": "The margin of appreciation doctrine has no application to Art 9 claims.",
+        "C": "The margin of appreciation allows the ECtHR to afford states a degree of latitude in how they balance competing rights and interests — the margin is wider for matters of social policy and narrower for interferences with core rights.",
+        "D": "The margin of appreciation doctrine means the ECtHR gives deference to national courts only, not to national legislatures.",
+        "E": "The margin of appreciation doctrine means the ECtHR will never intervene where a state invokes social policy justifications."
+      },
+      "correct": "C",
+      "explanation": "C is correct. The margin of appreciation is a doctrine developed by the ECtHR recognising that contracting states are often better placed to assess the needs of their societies in relation to Convention rights. The width of the margin varies depending on factors including whether there is a European consensus, the right in question, and the domestic context. Where sensitive social or religious issues are involved without consensus across states, a wider margin may be afforded. A: Incorrect — Art 9 (freedom of thought, conscience and religion) is a qualified right, not an absolute one; limitations are permissible if they meet the prescribed by law, legitimate aim, and necessity requirements. E: Incorrect — the margin of appreciation is not a blanket permission; the ECtHR retains supervisory jurisdiction and will still intervene where the state has overstepped even a wide margin. B: Incorrect — the margin of appreciation applies across the Convention rights, including Art 9, where the Court has applied it in cases concerning religious symbols in public institutions. D: Incorrect — the doctrine applies to the discretion afforded to contracting states broadly, including legislatures and executive bodies, not only national courts.",
+      "id": 26
+    },
+    {
+      "topic": "Judicial Review",
+      "tag": "Procedural exclusivity",
+      "scenario": "Ross, a local authority tenant, is being sued by Northgate Borough Council for rent arrears. In his defence, Ross wishes to argue that the rent increase that led to the arrears was unlawful as the Council failed to follow the statutory procedure required before increasing rents. He does not bring a separate judicial review claim.",
+      "stem": "Which of the following best describes Ross's legal position?",
+      "options": {
+        "A": "Ross has no defence because private law proceedings are entirely insulated from public law challenges.",
+        "B": "Ross can raise the public law point only if the Council consents to it being argued in private proceedings.",
+        "C": "Ross can raise the public law point only if he can show he had a legitimate expectation that rents would not increase.",
+        "D": "Ross can raise the public law unlawfulness of the rent increase as a defence to the Council's private law claim for arrears — where public law unlawfulness infects a private law claim, it can be raised collaterally as a defence.",
+        "E": "Ross cannot raise the public law point in private proceedings; he must first bring a judicial review claim and obtain a quashing order."
+      },
+      "correct": "D",
+      "explanation": "D is correct. In Wandsworth London BC v Winder, the House of Lords held that where a public law question arises as a collateral issue in private law proceedings — specifically as a defence — it does not need to be raised by way of judicial review. Ross can argue the unlawfulness of the rent increase as a defence to the Council's claim without bringing a separate JR. A: Incorrect — the Winder exception allows a public law defence to be raised in the private proceedings without a prior JR. B: Incorrect — Ross does not require the Council's consent; the right to raise a public law defence is a legal entitlement. C: Incorrect — there is no requirement to show a legitimate expectation; the defence is that the public body acted unlawfully in making the rent increase. E: Incorrect — Winder confirms that public law defences can be raised in private proceedings.",
+      "id": 27
+    },
+    {
+      "topic": "Illegality",
+      "tag": "Errors of fact",
+      "scenario": "The Ashwick Rural Council is empowered to compulsorily purchase land that is 'not part of a designated heritage park'. The Council has made a compulsory purchase order in respect of land which is, in fact, part of the Ashwick Heritage Park, but the Council incorrectly believed it was not. Thomas, the landowner, challenges the order.",
+      "stem": "Which of the following best describes Thomas's best ground of challenge?",
+      "options": {
+        "A": "Thomas has no ground of challenge because the Council was entitled to form its own view of the facts.",
+        "B": "Thomas has a strong ground of challenge based on error of law or jurisdictional fact — whether the statutory condition is satisfied is a question of law for the court, and the authority's misidentification is reviewable.",
+        "C": "Thomas has a ground of challenge based on error of law because the Council misapplied the legal definition of 'heritage park'.",
+        "D": "Thomas has a ground of challenge only if he can show no reasonable council would have made the same factual mistake.",
+        "E": "Thomas has a ground of challenge only if the Council acted in bad faith in misidentifying the land."
+      },
+      "correct": "B",
+      "explanation": "B is correct. A precedent or jurisdictional fact is a factual pre-condition to the existence of a legal power. Where the exercise of a statutory power depends on a particular factual state of affairs (here, the land not being part of a heritage park), the court can review whether that fact exists: White and Collins v Minister of Health. The Council's power only arises if the land is not a heritage park; since it is, the order is made without power. A: Incorrect — precedent facts are reviewable precisely because the decision-maker's jurisdiction depends on their existence; the court is not limited to reviewing process. E: Incorrect — bad faith is not required for review of a precedent fact error. C: Incorrect — the issue is factual, not a misinterpretation of a legal definition; the ground is precedent fact error, not error of law. D: Incorrect — the reasonableness standard applies to policy judgments; precedent fact review asks whether the fact objectively exists, not whether a reasonable authority could have mistaken it.",
+      "id": 28
+    },
+    {
+      "topic": "Unreasonableness",
+      "tag": "Intensity of review",
+      "scenario": "A government minister has refused to release a named individual from immigration detention, stating only that 'matters of national security are engaged.' The individual has been detained for 18 months without any detailed reason being provided. She argues the continued detention is unreasonable.",
+      "stem": "Which of the following best describes the standard of review the court is likely to apply?",
+      "options": {
+        "A": "The court will refuse jurisdiction because national security decisions are non-justiciable.",
+        "B": "The court will apply the most deferential super-Wednesbury standard because this is a national security matter and courts must entirely defer to executive judgment.",
+        "C": "The court will apply proportionality as the primary test because Art 5 ECHR is engaged.",
+        "D": "The court will apply an elevated intensity of review — where a decision engages fundamental rights, the court scrutinises the decision-maker's reasoning more rigorously, going beyond traditional Wednesbury rationality.",
+        "E": "The court will apply the standard Wednesbury test without modification because immigration decisions are always reviewed at the same intensity."
+      },
+      "correct": "D",
+      "explanation": "D is correct. Where fundamental rights — particularly the right to liberty — are at stake, courts apply a heightened (sub-Wednesbury) standard of review. National security considerations attract deference, but they do not render a decision immune from scrutiny; the court must still examine whether the continued detention is justified. As confirmed in Bugdaycay, the more fundamental the right at stake, the more rigorous the judicial scrutiny. B: Incorrect — super-Wednesbury (most deferential) applies to macro-economic or social policy decisions, not to decisions affecting fundamental liberty. A: Incorrect — national security does not render detention decisions entirely non-justiciable; courts can and do review them, albeit with appropriate deference. C: Incorrect — the standard is not uniform; it varies with the nature of the decision and the rights at stake. E: Incorrect — while Art 5 ECHR and proportionality may also be relevant, the question asks about the Wednesbury unreasonableness dimension, and the answer best captures the heightened domestic review standard.",
+      "id": 29
+    },
+    {
+      "topic": "Procedural Impropriety",
+      "tag": "Bias — view formed in advance",
+      "scenario": "Dr Hadley sits on the Thornbrook Medical Tribunal, which is determining whether to strike off Dr Pemberton for professional misconduct. Dr Hadley previously conducted a preliminary investigation into the same matter and produced a report that concluded Dr Pemberton 'had clearly acted improperly and should face serious consequences'. Dr Pemberton challenges Dr Hadley's participation.",
+      "stem": "Which of the following best describes the legal position?",
+      "options": {
+        "A": "There is a basis for challenge only if Dr Pemberton can show actual bias on the part of Dr Hadley.",
+        "B": "There is a strong basis for challenge — where a decision-maker has previously made a definitive finding on the very issue before it, a fair-minded observer would consider there is a real possibility of bias or predetermination.",
+        "C": "There is no basis for challenge because Dr Hadley's previous role was investigative, not judicial.",
+        "D": "There is no basis for challenge because Dr Hadley only formed a preliminary view and the Tribunal will consider the matter afresh.",
+        "E": "There is a basis for challenge only if Dr Hadley is in a minority on the Tribunal."
+      },
+      "correct": "B",
+      "explanation": "B is correct. The Porter v Magill test asks whether a fair-minded and informed observer, knowing all the facts, would conclude there was a real possibility of bias. Dr Hadley's written report expressing a definitive conclusion that Dr Pemberton 'had clearly acted improperly' goes well beyond a provisional view; it is a settled conclusion on the very matter the Tribunal is now deciding. This creates a real possibility that he cannot approach the hearing with an open mind. C: Incorrect — the previous view was not merely provisional; it was an expressed definitive conclusion, which distinguishes it from cases where only a preliminary view was reached (R v Reading BC ex parte Quietlyn). E: Incorrect — the test is not dependent on whether the biased member is in the majority; their participation taints the proceedings. A: Incorrect — the Porter v Magill test applies to all public decision-making bodies, not only those exercising judicial functions. D: Incorrect — the Porter v Magill test is objective (appearance of bias to a fair-minded observer), not subjective (actual bias).",
+      "id": 30
+    },
+    {
+      "topic": "Legitimate Expectation",
+      "tag": "Agency and clarity of representation",
+      "scenario": "During the election campaign, the leader of the winning political party publicly promised that the Melton Community Hub would 'never be closed on our watch'. Following the election, the new government decided to close the Hub as part of a budget review. Residents seek judicial review, arguing they had a legitimate expectation the Hub would remain open.",
+      "stem": "Which of the following best describes whether a legitimate expectation has arisen?",
+      "options": {
+        "A": "A legitimate expectation arises because the residents detrimentally relied on the promise by continuing to use the Hub.",
+        "B": "A legitimate expectation arises because a statement by a party leader who subsequently becomes a government minister is made on behalf of a public authority.",
+        "C": "No legitimate expectation arises because the statement was made by the leader of an opposition party, not by or on behalf of a public authority — only representations by a public authority with apparent authority to make them can found a legitimate expectation.",
+        "D": "A legitimate expectation arises because the statement was clear, specific and publicly made.",
+        "E": "No legitimate expectation arises because the statement concerned a future government policy and such commitments are always too vague to generate expectations."
+      },
+      "correct": "C",
+      "explanation": "C is correct. A legitimate expectation can only be generated by or on behalf of a public authority. In ex parte Begbie, Gibson LJ held that statements made by the leader of an opposition party during an election campaign did not create legitimate expectations, even though those individuals subsequently formed the new government. The representation must come from a body already exercising public power. B: Incorrect — the statement was made while the speaker was still a party leader in opposition, not yet a public authority; subsequent election to power does not retroactively transform the earlier statement. A: Incorrect — detrimental reliance is relevant to whether a legitimate expectation should be enforced, not to whether one arises in the first place; and the precondition of a public authority making the representation must first be satisfied. D: Incorrect — clarity and specificity are conditions for a valid expectation, but they are insufficient without the representation having been made by or on behalf of a public authority. E: Incorrect — this incorrectly identifies the reason; the real issue is the source of the statement, not its generality.",
+      "id": 31
+    },
+    {
+      "topic": "Human Rights Act",
+      "tag": "Section 19 compatibility statements",
+      "scenario": "Before the second reading of the Border Control Enhancement Bill in Parliament, the sponsoring minister makes a written statement that the Bill is compatible with Convention rights under s 19(1)(a) HRA.",
+      "stem": "Which of the following best describes the legal significance of a s 19 statement of compatibility?",
+      "options": {
+        "A": "A s 19 statement automatically triggers a review by the Joint Committee on Human Rights before the Bill proceeds.",
+        "B": "A s 19 statement is optional and has no legal significance under the HRA.",
+        "C": "A s 19 statement is legally binding and prevents courts from making a declaration of incompatibility in relation to the Act once passed.",
+        "D": "A s 19 statement means the Bill has been pre-approved by the courts and cannot be subject to JR.",
+        "E": "A s 19 statement is a parliamentary statement of the minister's view that the Bill is compatible with Convention rights; it does not bind the courts and does not prevent a declaration of incompatibility if the courts find otherwise."
+      },
+      "correct": "E",
+      "explanation": "E is correct. S 19 HRA requires the responsible minister to make a written statement that the Bill is compatible with Convention rights (or that they cannot do so but wish to proceed). The statement is a ministerial view only — it is not legally binding. Courts can and do find legislation to be incompatible despite a s 19 statement of compatibility, as demonstrated in the Belmarsh case. C: Incorrect — a s 19 statement does not prevent courts from making a s 4 declaration of incompatibility. D: Incorrect — courts are not involved in the s 19 process; it is an entirely parliamentary mechanism. A: Incorrect — the Joint Committee on Human Rights may scrutinise bills, but this is not automatically triggered by a s 19 statement; the two processes are separate. B: Incorrect — s 19 imposes a mandatory requirement on the minister to make the statement; it is not optional.",
+      "id": 32
+    },
+    {
+      "topic": "ECHR Articles",
+      "tag": "Article 2 — investigative duty",
+      "scenario": "Darnell, an inmate at Pemberton Young Offenders Institution, was fatally stabbed by a fellow prisoner who had a documented history of violent behaviour towards other inmates. The prison governor had received a warning that the two inmates should not be housed together but failed to act on it. Darnell's family seek a public inquiry.",
+      "stem": "Which of the following best describes the state's obligations under Article 2 ECHR?",
+      "options": {
+        "A": "The state has no obligation because the harm was caused by a fellow prisoner, not by state agents.",
+        "B": "The state has breached Art 2 automatically because a death occurred in state custody.",
+        "C": "The state may have breached its positive operational obligation to protect Darnell's life under Art 2 — given the known and immediate threat, the authorities were required to take reasonable steps within their powers to avert it.",
+        "D": "The state's only obligation under Art 2 is to prosecute the perpetrator; no inquiry is required.",
+        "E": "The state's Art 2 obligation only arises where the threat to life comes from a state agent, not from another prisoner."
+      },
+      "correct": "C",
+      "explanation": "C is correct. Art 2 imposes both a positive operational duty to take preventative steps to protect life where the state knew or ought to have known of a real and immediate threat (Osman; R (Amin)), and a procedural investigative duty to conduct a proper investigation into deaths in state custody, whether or not caused by state agents. In Amin, the House of Lords emphasised the importance of the investigative duty particularly where persons are involuntarily in state custody. The investigation must be independent, effective, reasonably prompt, publicly scrutinised and involve next of kin. A: Incorrect — the positive and investigative duties under Art 2 extend to deaths caused by third parties, particularly in custodial settings. D: Incorrect — prosecution alone does not satisfy the investigative duty; a broader inquiry into systemic failings may be required. B: Incorrect — not every death in custody automatically establishes a breach; the question is whether the state complied with its obligations. E: Incorrect — Amin and the investigative duty cases confirm that Art 2 duties arise for deaths in custody irrespective of whether the immediate cause was a state agent.",
+      "id": 33
+    },
+    {
+      "topic": "Judicial Review",
+      "tag": "Exhaustion of alternative remedies",
+      "scenario": "Yusuf received a decision from the Eastbridge Benefits Agency refusing his application for housing benefit. The Housing Benefit Regulations 2015 provide for an internal review procedure and, thereafter, an appeal to the Housing Benefit Tribunal. Yusuf, frustrated with administrative delays, immediately seeks judicial review without using either mechanism.",
+      "stem": "Which of the following best describes the likely outcome of Yusuf's application for permission to bring JR?",
+      "options": {
+        "A": "Yusuf will be granted permission because a statutory right of appeal is not an alternative remedy for the purposes of JR.",
+        "B": "Yusuf will likely be refused permission because JR is only appropriate where there is no adequate alternative remedy; an unexhausted statutory appeal route is treated as an adequate remedy and should ordinarily be pursued first.",
+        "C": "Yusuf will be refused permission only if the Agency can show it was prejudiced by him not using the internal review.",
+        "D": "Yusuf will be granted permission because JR is always available as an alternative to statutory appeal mechanisms.",
+        "E": "Yusuf will be granted permission because administrative delays justify bypassing appeal mechanisms."
+      },
+      "correct": "B",
+      "explanation": "B is correct. The courts have consistently held that JR is a remedy of last resort, available only where there is no adequate alternative remedy or where alternative remedies have been exhausted. In R (Cowl) v Plymouth City Council, the Court of Appeal emphasised that litigation should be avoided wherever possible if issues can be resolved outside the courts. A statutory right of appeal to a specialist tribunal and internal review are generally adequate alternatives. D: Incorrect — JR is not always available as a parallel alternative; applicants are expected to exhaust adequate alternatives first. A: Incorrect — statutory rights of appeal are recognised as adequate alternatives that must be pursued before JR. C: Incorrect — exhaustion of remedies is a principle protecting good administration, not solely protecting the respondent from prejudice; it applies regardless. E: Incorrect — administrative delays are a factor that might, in exceptional circumstances, justify bypassing alternative remedies, but mere frustration with delays is insufficient.",
+      "id": 34
+    },
+    {
+      "topic": "Judicial Review",
+      "tag": "Amenability and standing",
+      "scenario": "The Northdale Voluntary Sports Certification Council (NVSCC) is a body established by the sports industry without statutory foundation. It administers a certification scheme for youth sports coaches. Coaches who are not certified by the NVSCC are prohibited from coaching in state schools under the Schools Safety (Sports Coaching) Regulations 2022, which require all state school coaches to hold NVSCC certification. Marcus, a qualified coach with twenty years' experience, has been refused certification by the NVSCC following a disciplinary hearing at which he was not told the specific allegations against him. He considers bringing judicial review proceedings against the NVSCC, challenging both the amenability of the decision and the failure to observe procedural fairness.",
+      "stem": "Which one of the following represents the best advice to Marcus on whether and how he can challenge the NVSCC's decision?",
+      "options": {
+        "A": "Marcus has a strong JR claim — the NVSCC is amenable to JR because, although not statutory, its decisions have direct public law consequences for all vets, and but for its existence Parliament would likely have had to intervene.",
+        "B": "Marcus has a JR claim against the NVSCC for breach of procedural fairness, but the claim is likely to fail because voluntary certification bodies are entirely exempt from the duty to act fairly under common law principles.",
+        "C": "Marcus has no viable claim because the NVSCC is a private voluntary body with no statutory powers, and the courts cannot exercise JR jurisdiction over purely private bodies regardless of their practical impact.",
+        "D": "Marcus can challenge the decision, but he must do so by way of a private law claim for breach of contract, not by JR, because the NVSCC's authority over coaches arises from voluntary membership of the scheme.",
+        "E": "Marcus has a viable JR claim against the government department that made the 2022 Regulations rather than against the NVSCC itself, since it is the Regulations that create the practical monopoly and not the NVSCC's own decisions."
+      },
+      "correct": "A",
+      "explanation": "A is correct. On amenability: even without statutory powers, a body may be amenable to JR if it exercises a public function of a governmental character (Datafin). The 2022 Regulations make NVSCC certification a legal requirement for coaching in state schools; this creates a statutory underpinning that gives the NVSCC's decisions direct public law consequences. The 'but for' test is also satisfied: but for the NVSCC, Parliament would have had to create a statutory regulator. Marcus therefore has a strong amenability argument. On procedural fairness: since Ridge v Baldwin, the duty to act fairly applies to administrative decisions with serious consequences. A refusal of professional certification with career-ending implications requires, at minimum, that Marcus be informed of the specific allegations so he can respond. The failure to do this is a textbook breach of procedural fairness. B: Incorrect — Datafin establishes that non-statutory bodies can be amenable to JR if they exercise governmental-type public functions; amenability is not limited to statutory bodies. A: Incorrect — where the body is amenable to JR and the duty of fairness arises in a public law context, JR is the appropriate procedure; a private law contract claim would not address the public law dimension. C: Incorrect — voluntary certification bodies that exercise quasi-statutory gatekeeping functions are not exempt from the duty to act fairly; the common law duty arises wherever serious consequences follow from administrative decisions. E: Incorrect — while the Regulations create the framework, it is the NVSCC's decision that directly affects Marcus; the appropriate defendant in JR is the decision-making body.",
+      "id": 35
+    },
+    {
+      "topic": "Illegality",
+      "tag": "Fettering discretion and improper purpose",
+      "scenario": "The Westbrook Urban Development Corporation (WUDC) has a statutory power under the Urban Renewal Act 2018 to acquire land compulsorily 'for the purposes of urban regeneration'. The WUDC adopts a policy stating it will only acquire land in areas with a population density below 500 persons per square kilometre and will refuse all applications outside these parameters 'without exception and regardless of any individual merits'. The WUDC then uses its compulsory purchase powers to acquire land owned by Harriet, primarily because the land is adjacent to a site that the WUDC intends to develop as a private commercial park — a project that will generate significant income for the WUDC but which has no regeneration purpose.",
+      "stem": "Which one of the following represents the best advice to Harriet on whether and how she can challenge the WUDC's decision?",
+      "options": {
+        "A": "Harriet has grounds on two bases: the rigid population density policy unlawfully fetters discretion by excluding individual consideration, and using compulsory purchase powers authorised for housing to advance a private commercial development is an exercise of power for an improper purpose.",
+        "B": "Harriet has grounds for challenge only if she can demonstrate that the WUDC acted in bad faith when adopting the population density policy, as a lawful policy is a complete defence to any JR challenge.",
+        "C": "Harriet has no viable challenge because the WUDC acted within its statutory powers by completing a compulsory purchase and the courts cannot review the merits of that decision.",
+        "D": "Harriet has grounds for challenge based on fettering of discretion alone; the purpose behind the acquisition is irrelevant to the lawfulness of the compulsory purchase since the WUDC has an express statutory power to acquire land.",
+        "E": "Harriet has no grounds for challenge on improper purpose because the WUDC will generate income which can be reinvested into future regeneration projects, meaning the ultimate purpose is consistent with the statutory objective."
+      },
+      "correct": "A",
+      "explanation": "A is correct. On fettering of discretion: a statutory body may use a policy to guide its exercise of discretion, but it must always be willing to consider the individual merits of a case and to depart from the policy in exceptional circumstances. A policy applied 'without exception and regardless of any individual merits' fetters the discretion Parliament conferred. On improper purpose: a body can only exercise its statutory powers for the purpose for which Parliament granted them. The Urban Renewal Act grants powers for urban regeneration; using those powers to acquire land for a private commercial park generating income for the WUDC is a use of power for an improper — and indeed self-serving — purpose. The fact that income might incidentally fund future regeneration does not convert an improper primary purpose into a lawful one. B: Incorrect — the courts can and do review the lawfulness of the exercise of statutory powers; acting within the four corners of the Act in form does not excuse using powers for an improper purpose. A: Incorrect — improper purpose is an independent ground of review that can vitiate a decision regardless of whether the body has the formal power; Harriet's strongest argument includes both grounds. C: Incorrect — bad faith is not required to establish fettering of discretion or improper purpose; both are objective grounds of illegality. E: Incorrect — the dominant or primary purpose must be the statutory purpose; a speculative and incidental connection to future regeneration does not legitimise the exercise of a power whose immediate and real purpose is income generation.",
+      "id": 36
+    },
+    {
+      "topic": "Procedural Impropriety",
+      "tag": "Duty to act fairly and legitimate expectation — procedural",
+      "scenario": "The Alnwick Pharmaceutical Licensing Board (APLB) has for ten years sent all licence holders a written notice of any proposed changes to licence conditions, followed by a thirty-day consultation window during which representations could be made. The APLB now proposes to vary the conditions of Cressida's licence — which she has held for twelve years — by adding a requirement that she must submit quarterly financial returns under the new Pharmaceutical Accountability (Amendment) Regulations 2025. The APLB sent no notice to Cressida and implemented the variation immediately, citing an 'administrative emergency' arising from a regulatory scandal elsewhere in the sector. Cressida argues that she should have been consulted before the variation was made.",
+      "stem": "Which one of the following represents the best advice to Cressida on whether and how she can challenge the variation of her licence conditions?",
+      "options": {
+        "A": "Cressida has strong grounds on two bases: a procedural legitimate expectation from the APLB's consistent ten-year practice of providing notice and a hearing before licence revocation; and a failure to follow that procedure constitutes unfairness.",
+        "B": "Cressida has no basis for challenge because the APLB acted under the authority of the 2025 Regulations and procedural fairness cannot override a statutory obligation to vary licence conditions.",
+        "C": "Cressida has grounds for challenge only if she can demonstrate that the variation of her licence conditions causes her financial loss greater than the regulatory benefit achieved.",
+        "D": "Cressida has grounds for challenge based on legitimate expectation alone; the duty to act fairly does not apply because the APLB was implementing a regulatory requirement, not making a discretionary decision.",
+        "E": "Cressida has no basis for challenge because the administrative emergency justification is a matter of executive judgment that courts cannot review."
+      },
+      "correct": "A",
+      "explanation": "A is correct. On procedural legitimate expectation: the APLB's established ten-year practice of notice and consultation before any variation constitutes a regular past practice capable of generating a legitimate expectation that the procedure would continue (GCHQ; IRC v Unilever). The body cannot simply abandon an established practice without compelling reasons; vague reference to a regulatory scandal elsewhere — with no direct connection to Cressida — is unlikely to be a sufficiently compelling reason to justify abandoning the established procedure. On the duty of procedural fairness: separately from legitimate expectation, the common law requires that a person be given notice and an opportunity to make representations before a decision that adversely affects their existing legal rights is taken. Varying a twelve-year licence holder's conditions without any prior notice is a paradigm breach of this duty. B: Incorrect — the 2025 Regulations provide the substantive power to impose financial returns, but they do not suspend the common law duty to act fairly in exercising that power; unless the Regulations expressly exclude procedural fairness, it applies. C: Incorrect — the duty to act fairly is not confined to discretionary decisions; it applies wherever an administrative decision adversely affects a person's existing legal rights or legitimate expectations. D: Incorrect — the 'administrative emergency' rationale is not immune from review; the court can examine whether it was genuine, proportionate and sufficient to override established procedural protections. E: Incorrect — the right to procedural fairness is not contingent on demonstrating a financial threshold of loss; the right is to a fair process, not to compensation for the outcome.",
+      "id": 37
+    },
+    {
+      "topic": "Legitimate Expectation",
+      "tag": "Substantive legitimate expectation and frustration",
+      "scenario": "In 2019, the Solway Housing Authority (SHA) entered into a written agreement with fifteen families living in a purpose-built residential estate, which stated: 'The SHA gives an unambiguous commitment that the residents of Solway Crescent will be entitled to remain in their homes for as long as they wish to do so.' The families, relying on this commitment, invested significant personal funds in adapting their properties and declining to pursue other housing options. In 2025, facing severe budget pressures, the SHA announces that it intends to close Solway Crescent and rehouse all fifteen families in temporary accommodation across the city. Preethi, one of the residents, seeks judicial review.",
+      "stem": "Which one of the following represents the best advice to Preethi on whether and how she can challenge the SHA's decision?",
+      "options": {
+        "A": "Preethi has a basis for challenge only if she can show that the SHA acted irrationally in making the 2019 commitment, since the expectation only becomes enforceable if it was reasonable for the SHA to have made the promise in the first place.",
+        "B": "Preethi has no basis for challenge because public bodies must be free to change their policies in response to budget pressures, and any expectation of a permanent right to remain in public housing is inherently unreasonable.",
+        "C": "Preethi has a basis for challenge, but the court can only require the SHA to carry out a fresh consultation with the residents before proceeding; it cannot enforce the substantive right to remain because this would fetter the SHA's ongoing discretion in housing allocation.",
+        "D": "Preethi has a strong basis for challenge — the SHA's written commitment was a clear, specific, and unambiguous promise to an identifiable group on which they detrimentally relied; departing from it without compelling justification is unlawful.",
+        "E": "Preethi has a strong basis for challenge, but she would need to show that the SHA's decision was Wednesbury unreasonable; the court will only intervene if no reasonable housing authority could have decided to close the estate."
+      },
+      "correct": "D",
+      "explanation": "D is correct. This scenario closely mirrors ex parte Coughlan, where an unambiguous promise made to a small group of identifiable individuals who detrimentally relied on it was held to give rise to a substantive legitimate expectation that could be enforced by the court. The key features are present: the promise was clear, specific and unconditional; it was made to an identifiable group (fifteen families); and there was detrimental reliance (financial investment and foregone alternatives). Under the third Coughlan category, the court can assess whether frustrating the expectation amounts to an abuse of power, weighing the degree of unfairness to the residents against the public interest justification offered. Budget pressures alone are unlikely to justify the severe breach of an unconditional commitment. C: Incorrect — Coughlan establishes that substantive legitimate expectations can be enforced where the promise is sufficiently clear and individual reliance is detrimental; 'policy change needed' is not an automatic trump. D: Incorrect — the enforceability of the expectation does not depend on showing the original promise was irrational; the question is whether resiling from it now is an abuse of power. B: Incorrect — while the court might in some cases order a fresh consultation, Coughlan confirms that courts can go further and enforce the substantive expectation itself where the promise was unconditional and the reliance severe. E: Incorrect — under the Coughlan framework, Wednesbury unreasonableness is the lowest level of review (Category A); a clear substantive expectation arising from an unconditional individual promise attracts Category C review — whether frustration was so unfair as to be an abuse of power — not simple Wednesbury.",
+      "id": 38
+    },
+    {
+      "topic": "Human Rights Act",
+      "tag": "Section 3 and section 4 — compatibility and declarations",
+      "scenario": "Section 7(2) of the Residential Tenancy Control Act provides that: 'A landlord shall not be required to provide reasons for a decision to terminate a tenancy where the tenancy is held by a person who is not a citizen of this jurisdiction.' Ibrahim is a long-term legal resident who has lived in the same rented property for eleven years. His landlord — a local authority — has terminated his tenancy without providing any reasons. Ibrahim argues that s 7(2), as applied to him, is incompatible with his rights under Article 8 ECHR (the right to respect for private and family life and home) and Article 14 ECHR (prohibition of discrimination in the enjoyment of Convention rights).",
+      "stem": "Which one of the following represents the best advice to Ibrahim on the legal options available to him and the likely remedies?",
+      "options": {
+        "A": "Ibrahim has strong grounds — under s 3 HRA the court must interpret s 7(2) compatibly with Arts 8 and 14 so far as possible; if s 3 cannot achieve compatibility, a s 4 declaration of incompatibility may be made.",
+        "B": "Ibrahim's only remedy is a declaration under s 4 HRA, since the local authority was acting in accordance with primary legislation; s 3 cannot be used to alter the clear words of a statute.",
+        "C": "Ibrahim should apply directly to the European Court of Human Rights in Strasbourg, since UK domestic courts cannot provide effective remedies for incompatible primary legislation.",
+        "D": "Ibrahim has no remedy because the local authority was complying with s 7(2) of the Residential Tenancy Control Act and a public authority that acts in accordance with primary legislation cannot breach s 6(1) HRA.",
+        "E": "Ibrahim has a strong claim under s 6(1) HRA because local authorities are public authorities; the s 6(2) statutory defence is irrelevant where the Convention rights engaged are as fundamental as Arts 8 and 14."
+      },
+      "correct": "A",
+      "explanation": "A is correct. The analysis requires careful sequencing of the HRA machinery. The starting point is s 3: the court has a strong duty to read s 7(2) compatibly with Arts 8 and 14, including reading down the citizenship restriction or implying in a right to reasons for long-term residents, so far as it is possible without going against the grain of the legislation (Ghaidan). If s 3 achieves compatibility, the s 6(2) defence falls away and Ibrahim has a remedy under s 8 HRA against the local authority. If s 3 cannot achieve compatibility, the court makes a s 4 declaration, but this does not affect the validity of s 7(2) or give Ibrahim a direct remedy — the s 6(2) defence protects the authority that acted in accordance with inalterable primary legislation. A: Incorrect — A is right that s 6(2) can protect a public authority acting under primary legislation, but it ignores the s 3 duty, which is the first step and may eliminate the s 6(2) defence. C: Incorrect — domestic remedies must first be exhausted before the ECtHR can be petitioned; moreover, domestic courts can and must apply s 3 and s 4 first. D: Incorrect — this treats s 4 as the first resort when it should be the last; s 3 must be attempted first, and the courts have shown a willingness to adopt linguistically strained readings to achieve compatibility. E: Incorrect — the s 6(2) defence is explicitly available regardless of the fundamental nature of the rights engaged; if primary legislation requires the action, the defence applies unless s 3 can achieve a compatible reading.",
+      "id": 39
+    },
+    {
+      "topic": "ECHR Articles",
+      "tag": "Article 5 — deprivation of liberty and safeguards",
+      "scenario": "The Public Safety (Emergency Powers) Act (PSEP Act) grants the Commissioner of the National Safety Directorate (NSD) the power to issue 'restriction notices' preventing named individuals from attending public gatherings 'where there are reasonable grounds to believe the individual may contribute to public disorder'. Restriction notices last for up to 72 hours. Leo, a political activist with no criminal record, was served with a restriction notice before a lawfully organised public protest, on the basis of an intelligence report that he 'had attended previous protests that became disorderly'. He was detained by NSD officers for 30 hours when he attempted to attend the protest in breach of the notice. Leo argues that both the restriction notice regime and his detention violate Art 5 ECHR.",
+      "stem": "Which one of the following represents the best advice to Leo on whether and how he can challenge the restriction notice regime and his detention?",
+      "options": {
+        "A": "Leo has no basis for challenge because Art 5(1)(c) expressly permits detention to prevent the commission of an offence, and the NSD's assessment of reasonable grounds is a matter of executive judgment that courts cannot review.",
+        "B": "Leo has no basis for challenge because Art 5 does not apply to pre-emptive measures designed to prevent public disorder, and the PSEP Act provides a lawful basis for the restriction notice.",
+        "C": "Leo's only viable claim is under Art 5(4) for failure to provide a speedy review of his detention; he has no claim under Art 5(1) because the PSEP Act provides a statutory basis, which is all that is required for a lawful deprivation of liberty.",
+        "D": "Leo has a strong challenge under Art 5, but only in relation to the duration of detention; the restriction notice itself does not engage Art 5 because it does not amount to a deprivation of liberty.",
+        "E": "Leo has grounds under Art 5 on multiple bases: the detention constitutes a deprivation of liberty; Art 5(1)(c) permits preventive detention only where reasonably necessary; and Arts 5(2)-(4) require prompt notification, judicial supervision, and speedy review."
+      },
+      "correct": "E",
+      "explanation": "E is correct. This question requires analysis across multiple Art 5 safeguards. On Art 5(1): a restriction notice preventing attendance at gatherings, combined with 30-hour detention on breach, is likely to constitute a deprivation of liberty, not merely a restriction on movement; the cumulative effect matters. For Art 5(1)(c) — detention to prevent an offence — Ostendorf and Hicks (affirmed in S, V & A v Denmark) permit short-term preventative detention, but the standard of 'reasonably considered necessary' must be objectively satisfied. Attending previous protests that became disorderly is an extremely weak evidential basis for individualised reasonable grounds; it risks being a form of guilt by association rather than specific reasonable suspicion about Leo himself (Fox, Campbell and Hartley). On Art 5(2): Leo must be informed promptly and in sufficient detail of the reasons for his detention. On Art 5(4): he is entitled to speedy judicial review of his ongoing detention; 30 hours without any judicial oversight raises serious questions. D: Incorrect — Art 5 applies to all deprivations of liberty, including those justified by prevention of disorder; a statutory basis is necessary but not sufficient — the statutory basis itself must be Convention-compatible and the individual grounds must satisfy objective standards. C: Incorrect — the Art 5(1) lawfulness question is not satisfied merely by pointing to a statutory basis; the individual grounds, the objective suspicion standard, and the proportionality of the detention must all be assessed. E: Incorrect — the courts can and do review whether the 'reasonable grounds' standard has been objectively satisfied (Fox, Campbell and Hartley); executive assessment is not immune. B: Incorrect — the question of whether the restriction notice itself constitutes a deprivation of liberty is a live and important issue that should be assessed; combined with forced detention for breach, it is strongly arguable that Art 5 is engaged from the moment of the restriction notice's enforcement.",
+      "id": 40
+    },
+    {
+      "topic": "ECHR Articles",
+      "tag": "Article 6 — access to justice and fair trial",
+      "scenario": "The Professional Standards Tribunal (PST) is a statutory body that determines whether lawyers should be disbarred. Under the Legal Services Regulation Act, PST hearings are conducted in private by a panel of three members, all of whom are appointed by and can be removed at will by the Lord Chancellor. There is no right of appeal from a PST decision. Valentina, a barrister, has been disbarred by the PST without being given any written reasons for the decision and without access to the evidence relied on against her. She seeks to challenge the proceedings.",
+      "stem": "Which one of the following represents the best advice to Valentina on whether and how she can challenge the PST proceedings?",
+      "options": {
+        "A": "Valentina has grounds under Art 6: the disbarment determines civil rights engaging Art 6(1); the PST lacks independence; oral hearing and written reasons are required; and the absence of any right of appeal may compound the violation.",
+        "B": "Valentina has no challenge because the PST proceedings are governed by statute and Parliament's design of a specialised regulatory process must be respected.",
+        "C": "Valentina has no challenge under Art 6 because the right to a fair trial only applies in criminal proceedings, and disbarment is a civil regulatory matter.",
+        "D": "Valentina has grounds for challenge on independence grounds only; the hearing procedures and absence of an appeal are matters for Parliament and are not reviewable under Art 6.",
+        "E": "Valentina has a strong challenge under Art 6, but only in relation to the absence of written reasons; the other procedural features are within the PST's discretion and cannot be challenged."
+      },
+      "correct": "A",
+      "explanation": "A is correct. Art 6(1) applies to the determination of both criminal charges and civil rights and obligations. The right to practise as a barrister is a civil right, so Art 6(1) is engaged by the disbarment proceedings. On independence: Findlay v UK established that the relevant test asks whether the body presents an appearance of independence, taking into account the manner of appointment and terms of office, existence of guarantees against outside pressures, and appearance of independence to an outside observer. The Lord Chancellor's power to appoint and remove members at will, with no fixed tenure, creates a structural dependence on the executive that fails this test. On access to a court: Art 6(1) requires effective access to a court capable of independently reviewing the determination; an absence of any appeal raises serious concerns. On fairness: not being given the evidence against her or any reasons for the decision prevents Valentina from understanding or challenging the case against her — a fundamental requirement of a fair hearing. B: Incorrect — parliamentary design of a statutory body does not exempt it from Art 6 compliance; Findlay v UK involved a statutory court martial system and still found a violation. D: Incorrect — the hearing procedures and lack of appeal are central components of Art 6's guarantee of a fair hearing and access to justice; they are directly reviewable. C: Incorrect — Art 6(1) expressly applies to determinations of 'civil rights and obligations', which includes the right to practise a regulated profession. E: Incorrect — while the absence of reasons is indeed a strong ground, the independence and access to court issues are equally strong and independent grounds; a single-issue restriction of the challenge would significantly understate the strength of Valentina's position.",
+      "id": 41
+    },
+    {
+      "topic": "Illegality",
+      "tag": "Errors of law and proportionality",
+      "scenario": "Under the Environmental Licensing (Industrial Processes) Act, the Environment Control Agency (ECA) has a power to revoke an operating licence where a licensee has 'persistently failed to comply with environmental standards'. The ECA has issued Barton Chemicals Ltd with three minor technical notices of non-compliance in twelve months — each remedied promptly and without any environmental harm — and has then revoked its licence entirely. The ECA justifies revocation by stating that 'three notices in twelve months is our threshold for persistent non-compliance and we apply it consistently to all licensees'. Barton Chemicals argues that the revocation was unlawful.",
+      "stem": "Which one of the following represents the best advice to Barton Chemicals on whether and how it can challenge the revocation?",
+      "options": {
+        "A": "Barton Chemicals has no grounds for challenge because the ECA has acted consistently with all licensees, and equal treatment is a complete answer to any claim of unlawful discrimination in the exercise of administrative powers.",
+        "B": "Barton Chemicals has grounds on multiple bases: construing three promptly-remedied technical notices as 'persistent failure' may be an error of law; applying the threshold policy rigidly without exception fetters discretion; and the resulting conditions are disproportionate to any legitimate aim.",
+        "C": "Barton Chemicals has no challenge because the ECA is entitled to set and apply consistent thresholds for 'persistent non-compliance' under its statutory power.",
+        "D": "Barton Chemicals has a viable challenge based on proportionality only; the error of law and fettering of discretion arguments are too weak because the statutory threshold of 'persistent non-compliance' is broad enough to accommodate the ECA's interpretation.",
+        "E": "Barton Chemicals has grounds for challenge based on fettering of discretion only; errors of law by specialist environmental agencies are non-reviewable because courts defer to expert bodies."
+      },
+      "correct": "B",
+      "explanation": "B is correct. This scenario raises three interconnected grounds. On error of law: 'persistent failure to comply' is a statutory phrase that the court can review. An interpretation that treats three minor, promptly remedied technical breaches as 'persistent failure' may be an error of law — 'persistent' implies ongoing or repeated disregard, not technical incidents corrected without harm. Following ex parte Page, all errors of law are in principle reviewable. On fettering of discretion: even if the threshold policy is a permissible interpretation, applying it rigidly 'without exception' to all cases regardless of individual circumstances is a fettering of discretion. The ECA must retain the ability to consider whether the individual circumstances of a case — particularly the minor nature of the breaches, prompt remediation and absence of harm — justify departing from the threshold. On proportionality: where Convention rights are not directly engaged, proportionality as a domestic ground is developing; but even applying Wednesbury, revoking a licence entirely for trivial, remedied, harmless technical breaches is strongly arguably disproportionate to the point of irrationality. D: Incorrect — consistent application of a threshold does not insulate it from review; both the content of the policy and its rigid application can be challenged. A: Incorrect — errors of law by specialist agencies are reviewable; specialist deference operates in relation to matters of technical expertise, not to the legal interpretation of statutory phrases. E: Incorrect — equal but unlawful treatment of all licensees does not cure an unlawful policy; consistency in applying an unlawful approach provides no defence. C: Incorrect — the error of law and fettering arguments are independent and strong; the breadth of the phrase is precisely what is disputed, and 'broadly drafted' does not mean 'immune from review'.",
+      "id": 42
+    },
+    {
+      "topic": "Human Rights Act",
+      "tag": "Article 8 and section 6 — positive obligations and hybrid bodies",
+      "scenario": "The Clarendon Care Foundation (CCF) is a registered charity operating a residential care home for elderly residents with dementia. The CCF receives 90% of its funding from public sources under a block contract with Halford City Council, which is under a statutory duty to arrange residential dementia care. Residents of the CCF have no meaningful freedom to leave and are entirely dependent on the CCF for all aspects of their daily lives. Margaret, an 84-year-old resident with advanced dementia, has been placed in an isolation room for extended periods with no explanation given to her family, who allege that this treatment breaches her rights under Art 8 ECHR.",
+      "stem": "Which one of the following represents the best advice to Margaret's family on whether and how they can challenge the CCF's treatment?",
+      "options": {
+        "A": "The family has no basis for challenge under Art 8 because the CCF's isolation policy is a matter of clinical judgment that falls within the margin of discretion afforded to care providers, and courts cannot review clinical decisions.",
+        "B": "The family has strong grounds — the CCF is likely a hybrid public authority under s 6(3)(b) HRA for its residential care function, given the statutory framework, public funding, and close regulation; it must therefore act compatibly with Convention rights.",
+        "C": "The family has a strong basis for challenge, but only through the local authority's obligations under s 6 HRA; there is no direct HRA obligation on the CCF itself regardless of its public funding level.",
+        "D": "The family has grounds for challenge under Art 8 only if the local authority — as the statutory duty holder — is named as the defendant; the CCF itself cannot be a public authority because it contracted independently with the local authority.",
+        "E": "The family has no basis for challenge because the CCF is a registered charity, not a public body, and charities cannot be public authorities for the purposes of s 6 HRA."
+      },
+      "correct": "B",
+      "explanation": "B is correct. The central question is whether the CCF is a public authority for HRA purposes. S 6(3)(b) extends the definition to bodies exercising 'functions of a public nature'. The CCF is not a core public authority but may be a hybrid one. The relevant factors — statutory underpinning via the local authority's duty, near-total public funding, assumption of public functions in relation to vulnerable individuals who lack autonomy — are strongly analogous to the statutory underpinning present in R (on the application of A) v Partnership in Care, where a private psychiatric hospital was found to be exercising a public function. On Art 8: the right to respect for private life encompasses personal dignity, and extended unexplained isolation of a dementia patient is directly capable of breaching Art 8. The state (via the CCF as functional public authority) must show the isolation was prescribed by law, pursued a legitimate aim, and was necessary and proportionate. D: Incorrect — charitable status does not preclude a body from being a functional public authority under s 6(3)(b); the analysis focuses on the nature of the function, not the corporate form. E: Incorrect — while the local authority retains overall responsibility, the CCF as the direct provider of care and the body actually implementing the impugned treatment is the appropriate defendant in relation to its own acts; both may have obligations. C: Incorrect — clinical decisions by public authorities are subject to Art 8 review; the margin of discretion is a factor but does not exclude judicial scrutiny of plainly unjustified treatment. A: Incorrect — if the CCF is a functional public authority under s 6(3)(b), it bears direct HRA obligations in relation to the function it is exercising; the claim is not limited to proceeding via the local authority.",
+      "id": 43
+    },
+    {
+      "topic": "Judicial Review",
+      "tag": "Procedural exclusivity and mixed claims",
+      "scenario": "Carmen is a nurse employed by the Eastmere National Health Service Trust. She is also a patient at the same Trust. In two separate disputes: (1) she claims that the Trust unlawfully withdrew her contractual right to subsidised staff parking under its employment contract; and (2) she claims that the Trust failed to provide her with a statutory treatment protocol to which she was entitled as a patient under the Health Entitlements Act 2020. Carmen wishes to bring both claims in the civil courts rather than by judicial review.",
+      "stem": "Which one of the following represents the best advice to Carmen on how to bring her claims?",
+      "options": {
+        "A": "Carmen must bring the treatment protocol claim in the civil courts because statutory entitlements create private law rights, while the parking claim must be brought by way of JR because employment decisions by public bodies are public law matters.",
+        "B": "Carmen must bring both claims by way of judicial review because NHS Trusts are hybrid public authorities and all disputes with them, whether employment or treatment-related, are public law matters.",
+        "C": "Carmen's two claims require separate treatment: the employment and parking claim is a private law matter for ordinary civil proceedings; the treatment protocol claim engages statutory public law entitlements and must be brought by judicial review under CPR Part 54.",
+        "D": "Carmen can bring both claims in the civil courts because the procedural exclusivity rule in O'Reilly v Mackman was completely abolished by the Civil Procedure Rules and JR is now entirely optional.",
+        "E": "Carmen must bring both claims by way of judicial review because both involve an NHS Trust, which is a public body, and O'Reilly v Mackman requires all public law matters to be pursued through JR."
+      },
+      "correct": "C",
+      "explanation": "C is correct. The procedural exclusivity analysis must be applied separately to each claim. The employment/parking claim: the source of Carmen's right is her employment contract — a private law relationship. Even where the employer is a public body, a contractual right of an employee gives rise to private law proceedings; the O'Reilly exclusivity rule does not require contractual employment claims to be brought by JR (Roy v Kensington). The treatment protocol claim: the right to a statutory treatment protocol under the Health Entitlements Act 2020 is a public law right. Strictly, O'Reilly would require this to be pursued by JR to protect the safeguards of the JR procedure. However, under the modern approach in Clark v University of Lincolnshire, the court's focus is not on strict procedural adherence but on whether the proceedings are conducted justly. If no material injustice results, the claim may be allowed to proceed in ordinary civil proceedings, but the court retains a discretion to transfer. E: Incorrect — O'Reilly does not apply to private law contractual claims; it targets claims that are 'public law' in substance; the parking/employment claim is private in nature. B: Incorrect — being a public body does not convert all disputes with that body into public law matters; the nature of the right engaged determines the procedure. D: Incorrect — procedural exclusivity has not been abolished; it has been modified by a more flexible approach under the CPR, but JR remains the primary route for public law claims. A: Incorrect — this reverses the correct analysis; statutory entitlements are public law rights (potentially requiring JR), while employment contracts give rise to private law rights.",
+      "id": 44
+    },
+    {
+      "topic": "Human Rights Act",
+      "tag": "Derogations and absolute rights",
+      "scenario": "Following a series of serious public security incidents, the government enacts the Public Emergency (Detention and Investigation) Act, which permits the Minister to authorise the detention without charge of individuals for up to 28 days where the Minister 'considers it necessary for the investigation of acts of terrorism.' The Act also permits the use of 'enhanced interrogation techniques' during such detention, defined in the Act as including prolonged sleep deprivation and exposure to extremes of temperature. The government declares a public emergency under Art 15 ECHR and argues this derogation permits these measures. Hamid, detained without charge for 24 days and subjected to the defined interrogation techniques, brings proceedings under the HRA.",
+      "stem": "Which one of the following represents the best advice to Hamid on the strength of his challenge?",
+      "options": {
+        "A": "Hamid has a strong challenge to both the detention and the interrogation techniques on the basis that Art 15 derogations are never lawful under domestic HRA law, regardless of the severity of the public emergency.",
+        "B": "Hamid has no viable challenge because the government has validly declared a public emergency under Art 15 ECHR, which permits derogation from all Convention rights during a genuine public emergency.",
+        "C": "Hamid has grounds on two bases: 28-day detention without charge requires a valid Art 15 derogation and will likely violate Art 5 absent prompt judicial oversight; the interrogation techniques may constitute inhuman or degrading treatment under Art 3, which is absolute and non-derogable.",
+        "D": "Hamid has grounds to challenge the detention but not the interrogation techniques, because Art 3 permits derogation in extreme national security circumstances where the emergency is severe enough.",
+        "E": "Hamid has no challenge to the interrogation techniques because the government has defined the techniques as 'enhanced interrogation' rather than 'torture', and the domestic classification of the methods determines whether Art 3 is engaged."
+      },
+      "correct": "C",
+      "explanation": "C is correct. The answer requires distinguishing between limited rights (from which Art 15 derogation is in principle possible) and absolute rights (from which no derogation is ever permitted). Art 5 (liberty) is a limited right; derogation is permissible in a genuine public emergency, but must be strictly necessary and proportionate — 28 days without charge requires careful scrutiny and may exceed what is 'strictly required by the exigencies of the situation'. Art 3 is an absolute right. The ECtHR has confirmed unequivocally that Art 3 admits of no exceptions and no derogation under Art 15, regardless of the gravity of the public emergency. Prolonged sleep deprivation and exposure to extreme temperatures are well-established forms of inhuman or degrading treatment and fall within Art 3. The government's derogation cannot authorise Art 3 treatment, and domestic legislation requiring or authorising such treatment cannot be validated by a purported Art 15 derogation. E: Incorrect — Art 15 does not permit derogation from Art 3; the list of non-derogable rights in Art 15(2) includes Art 3. A: Incorrect — the ECtHR does not accept that domestic classification of treatment as something other than 'torture' determines whether Art 3 is engaged; it makes its own autonomous assessment of whether treatment is tortuous, inhuman or degrading. C: Incorrect — Art 15 derogations are in principle lawful under the HRA (ss 14-16 HRA); the point is that they cannot authorise Art 3 treatment. B: Incorrect — Art 3 is absolute without exception; national security, however extreme, cannot justify conduct falling within its scope.",
+      "id": 45
+    },
+    {
+      "topic": "Procedural Impropriety",
+      "tag": "Bias and fair hearing — combined",
+      "scenario": "The Northgate Bar Standards Panel (NBSP) is a statutory body responsible for determining complaints against solicitors. Three members of a five-person NBSP panel are considering a complaint against Sofia, a solicitor. Member A conducted the preliminary investigation into the complaint and produced a written report recommending that Sofia be struck off as 'guilty beyond doubt.' Member B is the former managing partner of the law firm that made the complaint against Sofia. Member C has no connection to the parties. Sofia's lawyer objects to the participation of both Member A and Member B before the hearing begins.",
+      "stem": "Which one of the following represents the best advice to Sofia on the strength of her objections?",
+      "options": {
+        "A": "Sofia has objections to both members: Member A produced a preliminary report concluding Sofia is 'guilty beyond doubt', creating a real possibility of bias or predetermination; Member B's financial interest in a competing operator creates an apparent conflict of interest.",
+        "B": "Sofia has no objection to either member because the Panel has a three-member majority without Member A and Member B, so any decision is unaffected by their participation.",
+        "C": "Sofia has a strong objection to Member B's participation but not to Member A's; a preliminary investigation and report is an inherent part of the Panel's statutory process and cannot itself found a bias challenge, since all Panel members must be familiar with the case before hearing it.",
+        "D": "Sofia has a strong objection to Member A's participation but not to Member B's; a former professional connection to the complaining firm is too remote to satisfy the Porter v Magill test, and the prior connection would have to be current and direct to found a bias challenge.",
+        "E": "Sofia's objections are both likely to fail because the NBSP has internal expertise and the courts should defer to its own assessments of its members' impartiality."
+      },
+      "correct": "A",
+      "explanation": "A is correct. The Porter v Magill test asks whether the fair-minded and informed observer, having considered the facts, would conclude there was a real possibility that the tribunal was biased. Member A: writing a report concluding Sofia is 'guilty beyond doubt' is not a provisional or preliminary view — it is a settled, expressed conclusion on the very question the Panel must now decide. This is precisely the situation addressed in R v Kent Police Authority ex parte Godden, where a doctor who had previously formed a view on the relevant question was held to be disqualified. A: Incorrect — internal deference does not override the fair-minded observer test; the courts apply Porter v Magill to all public decision-making bodies. B on Member E is correct. Member B: being the former managing partner of the complaining firm is a prior institutional allegiance that is directly relevant to the complaint. Even if the connection is no longer current, a fair-minded observer would question whether it creates a real possibility of partiality; this is stronger than mere membership of an organisation (contrast Helow, where mere membership without personal expressed views was insufficient). D: Incorrect — a former managing partner role with the complaining firm is a more direct and significant connection than mere membership of an association (Helow); the objection to Member B is strong, not weak. C: Incorrect — Member A did not merely read the file; they made an expressed written finding of guilt. This goes far beyond the investigative familiarisation that is inherent in the process. E: Incorrect — the taint of an interested member's participation is not cured by the existence of a majority of uninterested members; the participation of a biased member taints the entire proceedings regardless of voting arithmetic.",
+      "id": 46
+    },
+    {
+      "topic": "Human Rights Act",
+      "tag": "Article 7 and retroactive criminalisation",
+      "scenario": "In 2018, the Veldmore High Court ruled — for the first time — that the offence of 'criminal facilitation' under the Organised Crime Prevention Act 2010 extended to persons who provided financial services to organisations later shown to have been engaged in criminal activity, even where those services were provided without knowledge of the criminal purpose. Applying this ruling, the Crown Prosecution Service charged Oscar with criminal facilitation for providing legitimate accountancy services in 2015 to a company that was subsequently revealed to have been running an investment fraud. Oscar argues that at the time he provided the services, no court had ever held that the offence extended to unknowing facilitators, and that his conviction would constitute retrospective criminalisation in breach of Art 7 ECHR.",
+      "stem": "Which one of the following represents the best advice to Oscar on the strength of his Art 7 challenge?",
+      "options": {
+        "A": "Oscar has a potential Art 7 challenge — Art 7 prohibits retrospective criminalisation, but permits foreseeable judicial development of the law; the question is whether the 2018 ruling was a foreseeable clarification or an unforeseeable extension of liability.",
+        "B": "Oscar has a strong Art 7 challenge based on the principle that criminal law must be prescribed by statute, not judge-made, and all common law developments in criminal law therefore violate Art 7.",
+        "C": "Oscar has no Art 7 challenge because Art 7 only applies to statutory provisions that are enacted retrospectively; judicial interpretation of existing legislation is not subject to Art 7.",
+        "D": "Oscar has a strong Art 7 challenge because Art 7 requires that criminal offences be defined in advance by statute, and a judicial extension of the scope of an existing offence is always a retrospective criminalisation in violation of Art 7.",
+        "E": "Oscar has no Art 7 challenge because the offence existed in statute at the time of his conduct; it is irrelevant that the courts had not previously interpreted the offence in the way applied to him."
+      },
+      "correct": "A",
+      "explanation": "A is correct. Art 7 does not prohibit the progressive development and clarification of criminal law through judicial interpretation; such development has existed for centuries, particularly in common law systems. The ECtHR in SW v UK held that the clarification of the law on marital rape by the courts did not violate Art 7 because the development followed a 'perceptible line of case-law development' that was 'reasonably foreseeable' and 'consistent with the very essence of the offence.' The key questions for Oscar's case are: (1) Was the 2018 ruling a foreseeable development of the existing law on facilitation, or an unpredictable departure? (2) Could Oscar, by taking appropriate legal advice, have foreseen that his conduct might fall within the statutory offence as it would evolve? If the 2018 ruling was a sudden, unforeseeable extension — particularly one that criminalises persons who lacked any knowledge of the criminal purpose — the foreseeability requirement may not have been satisfied. B: Incorrect — Art 7 does not absolutely prohibit all judicial extensions of criminal law; it permits foreseeable clarification and incremental development; the test is accessibility and foreseeability, not whether the development was judicial rather than statutory. C: Incorrect — Art 7 expressly encompasses criminal liability under 'national or international law', which includes both statute and common law/judicial interpretation. A: Incorrect — the existence of a statute is not sufficient; Art 7 requires that its application to the specific conduct in question was foreseeable at the time of the conduct. D: Incorrect — common law development of criminal law is not automatically a violation of Art 7; the ECtHR has repeatedly confirmed that foreseeable judicial interpretation is compatible with Art 7.",
+      "id": 47
+    }
+  ]
+}
