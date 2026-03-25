@@ -127,6 +127,9 @@ select{width:100%;padding:9px 12px;border:1px solid rgba(0,0,0,0.18);border-radi
 </head>
 <body>
 <div id="app"></div>
+<script src="data/notes/trusts-notes.js"></script>
+<script src="data/notes/land-notes.js"></script>
+<script src="data/notes/public-notes.js"></script>
 <script>
 
 /* ══════════════════════════════════════════════════════════
@@ -549,6 +552,15 @@ var NOTES_FILES = {
 
 function loadNotes(moduleName) {
   if (NOTES_LOADED[moduleName]) return Promise.resolve();
+
+  /* 1. Try pre-loaded data from <script> tags (works with file://) */
+  if (window.NOTES_PRELOAD && window.NOTES_PRELOAD[moduleName]) {
+    NOTES[moduleName] = window.NOTES_PRELOAD[moduleName];
+    NOTES_LOADED[moduleName] = true;
+    return Promise.resolve();
+  }
+
+  /* 2. Fallback to fetch (works when served over http) */
   var filePath = NOTES_FILES[moduleName];
   if (!filePath) return Promise.resolve();
 
