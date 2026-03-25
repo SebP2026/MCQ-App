@@ -539,6 +539,7 @@ function answerBtn(el){ answer(el.getAttribute('data-opt')); }
 
 var NOTES = {};
 var NOTES_LOADED = {};
+var notesState = { activeDoc: null };
 
 var NOTES_FILES = {
   "Trusts Law": "data/notes/trusts-notes.json",
