@@ -123,6 +123,30 @@ select{width:100%;padding:9px 12px;border:1px solid rgba(0,0,0,0.18);border-radi
 /* Cream and light blue cell text */
 .notes-table td.nt-cell-cream p,
 .notes-table td.nt-cell-cream li { color:#333; }
+
+/* ── Timer ── */
+.timer-bar{display:flex;align-items:center;justify-content:flex-end;margin-bottom:8px;padding:0 2px}
+.qtimer{font-size:19px;font-weight:700;color:#185FA5;letter-spacing:1px;font-variant-numeric:tabular-nums}
+.qtimer.over{color:#c0392b;animation:pulse-red 1s ease-in-out infinite}
+@keyframes pulse-red{0%,100%{opacity:1}50%{opacity:0.55}}
+
+/* ── View Notes button (after answer) ── */
+.notes-link-btn{display:inline-flex;align-items:center;gap:7px;padding:13px 18px;background:none;border:1.5px solid #185FA5;border-radius:10px;color:#185FA5;font-size:14px;font-weight:600;cursor:pointer;white-space:nowrap;transition:background 0.12s}
+.notes-link-btn:hover{background:#E6F1FB}
+.notes-link-btn svg{width:15px;height:15px;stroke:#185FA5;fill:none;stroke-width:2;flex-shrink:0}
+
+/* ── Notes search ── */
+.notes-search-wrap{flex:1;position:relative;margin:0 12px}
+.notes-search-input{width:100%;padding:7px 28px 7px 12px;border:1px solid rgba(0,0,0,0.18);border-radius:7px;font-size:12px;color:#111;background:#f8fafc;outline:none}
+.notes-search-input:focus{border-color:#185FA5;background:#fff}
+.notes-search-clear{position:absolute;right:7px;top:50%;transform:translateY(-50%);background:none;border:none;font-size:15px;cursor:pointer;color:#aaa;line-height:1;padding:0}
+.notes-search-clear:hover{color:#555}
+.notes-search-results{padding:1rem 1.75rem}
+.notes-search-result-item{padding:10px 12px;border-radius:8px;border:1px solid rgba(0,0,0,0.1);margin-bottom:8px;cursor:pointer;transition:background 0.1s}
+.notes-search-result-item:hover{background:#f0f4f9;border-color:#185FA5}
+.notes-search-result-title{font-size:12px;font-weight:600;color:#185FA5;margin-bottom:4px}
+.notes-search-result-snippet{font-size:12px;color:#555;line-height:1.55}
+.notes-search-result-snippet mark{background:#fff3cd;border-radius:2px;padding:0 2px;font-style:normal}
 </style>
 </head>
 <body>
@@ -261,6 +285,38 @@ MODULES.forEach(function(m){
   });
 });
 
+
+/* ══════════════════════════════════════════════════════════
+   TIMER
+══════════════════════════════════════════════════════════ */
+var timerInterval = null;
+var timerElapsed  = 0;
+
+function startTimer() {
+  stopTimer();
+  timerElapsed = 0;
+  updateTimerDisplay();
+  timerInterval = setInterval(function() { timerElapsed++; updateTimerDisplay(); }, 1000);
+}
+
+function stopTimer() {
+  if (timerInterval) { clearInterval(timerInterval); timerInterval = null; }
+}
+
+function updateTimerDisplay() {
+  var el = document.getElementById('qtimer');
+  if (!el) return;
+  var rem = 120 - timerElapsed;
+  if (rem >= 0) {
+    el.textContent = Math.floor(rem/60) + ':' + (rem%60 < 10 ? '0' : '') + rem%60;
+    el.className = 'qtimer';
+  } else {
+    var ov = -rem;
+    el.textContent = '+' + Math.floor(ov/60) + ':' + (ov%60 < 10 ? '0' : '') + ov%60;
+    el.className = 'qtimer over';
+  }
+}
+
 /* ══════════════════════════════════════════════════════════
    HELPERS
 ══════════════════════════════════════════════════════════ */
@@ -301,10 +357,11 @@ function getQ(){
   return pick;
 }
 
-function next(){ var q=getQ(); if(!q)return; S.q=q; S.sel=null; S.qn++; paint(); }
+function next(){ var q=getQ(); if(!q)return; S.q=q; S.sel=null; S.qn++; paint(); startTimer(); }
 
 function answer(o){
   if(S.sel) return;
+  stopTimer();
   S.sel = o;
   S.att++;
   var ok = (o === S.q.c);
@@ -493,6 +550,9 @@ function paint(){
     });
     h+='</div>';
 
+    /* timer */
+    h+='<div class="timer-bar"><span id="qtimer" class="qtimer">2:00</span></div>';
+
     /* question card */
     if(S.q){
       var q=S.q;
@@ -512,10 +572,15 @@ function paint(){
         h+='<div class="expl '+(isOk?'c':'i')+'">'
           +'<div class="exh '+(isOk?'c':'i')+'">'+(isOk?'Correct — well done.':'Incorrect — the correct answer is '+q.c+'.')+'</div>'
           +q.ex+'</div>';
+        /* Notes link button */
+        var nm=findNotesDocForTopic(q.mod,q.tp);
+        var nb2=nm?'<button class="notes-link-btn" data-mod="'+q.mod+'" data-doc="'+nm.doc.id+'" onclick="openNotesFromQ(this)"><svg viewBox="0 0 24 24"><path d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2"/></svg>View Notes</button>':'';
+        h+='<div style="display:flex;gap:8px;margin-bottom:0">'
+          +'<button class="nb" style="flex:1" onclick="next()">Next question →</button>'
+          +nb2+'</div>';
+      } else {
+        h+='<button class="nb" disabled>Select an answer to continue</button>';
       }
-
-      h+='<button class="nb" onclick="next()" '+(S.sel?'':'disabled')+'>'
-        +(S.sel?'Next question →':'Select an answer to continue')+'</button>';
     }
   }
 
@@ -525,7 +590,7 @@ function paint(){
 }
 
 /* ── named handlers (avoid quote conflicts in onclick attributes) ── */
-function goHome(){ S.view='start'; paint(); }
+function goHome(){ stopTimer(); S.view='start'; paint(); }
 function switchMod(el){ S.mod=el.getAttribute('data-mid'); S.topic='all'; S.view='start'; paint(); }
 function startQuizTile(el){ startQuiz(S.mod, el.getAttribute('data-tid')); }
 function startAll(){ startQuiz(S.mod,'all'); }
@@ -604,6 +669,7 @@ function renderNotesOverlay(mod, topic) {
 
   // Scope to the active module — do NOT fall back to another module
   var activeMod = mod || S.mod;
+  notesState.activeMod = activeMod;
   var modNotes = (NOTES[activeMod] && Object.keys(NOTES[activeMod]).length > 0) ? NOTES[activeMod] : null;
 
   // If this module has no notes, show placeholder
@@ -679,9 +745,13 @@ function renderNotesOverlay(mod, topic) {
       '<div class="notes-header">' +
         '<div>' +
           '<div class="notes-mod-label">Revision Notes</div>' +
-          '<div class="notes-title">' + panelTitle + '</div>' +
+          '<div class="notes-title" id="notes-panel-title">' + panelTitle + '</div>' +
         '</div>' +
-        '<button class="notes-close" onclick="closeNotes()">×</button>' +
+        '<div class="notes-search-wrap">' +
+          '<input type="text" class="notes-search-input" id="notes-search" placeholder="Search notes\u2026" oninput="onNotesSearch(this)" autocomplete="off">' +
+          '<button class="notes-search-clear" onclick="clearNotesSearch()" title="Clear">\u00d7</button>' +
+        '</div>' +
+        '<button class="notes-close" onclick="closeNotes()">\u00d7</button>' +
       '</div>' +
       '<div style="display:flex;flex:1;min-height:0;overflow:hidden;position:relative">' +
         '<button class="notes-toggle" onclick="toggleNotesSidebar()" id="notes-toggle-btn"><svg viewBox="0 0 24 24"><path d="M19 12H5M12 19l-7-7 7-7"/></svg></button>' +
@@ -714,7 +784,8 @@ function selectNotesDoc(btn) {
     var nb = document.getElementById('notes-body');
     nb.innerHTML = doc.content;
     nb.scrollTop = 0;
-    document.querySelector('.notes-title').textContent = doc.title;
+    var titleEl = document.getElementById('notes-panel-title') || document.querySelector('.notes-title');
+    if (titleEl) titleEl.textContent = doc.title;
   }
 }
 
@@ -726,6 +797,114 @@ function toggleNotesSidebar() {
   btn.querySelector('svg').innerHTML = isCollapsed
     ? '<path d="M5 12h14M12 5l7 7-7 7"/>'
     : '<path d="M19 12H5M12 19l-7-7 7-7"/>';
+}
+
+
+/* ══════════════════════════════════════════════════════════
+   NOTES — QUESTION LINK
+══════════════════════════════════════════════════════════ */
+function findNotesDocForTopic(mod, topicId) {
+  var modNotes = NOTES[mod];
+  if (!modNotes) return null;
+  var tid = topicId ? topicId.toLowerCase() : '';
+  /* 1. Exact key match */
+  if (modNotes[topicId] && modNotes[topicId].length > 0)
+    return { topicKey: topicId, doc: modNotes[topicId][0] };
+  /* 2. Notes key contains topicId */
+  for (var tk in modNotes) {
+    if (tk.toLowerCase().indexOf(tid) !== -1 && modNotes[tk].length > 0)
+      return { topicKey: tk, doc: modNotes[tk][0] };
+  }
+  /* 3. topicId first word in notes key */
+  var firstWord = tid.split(/\s+/)[0];
+  if (firstWord.length > 2) {
+    for (var tk in modNotes) {
+      if (tk.toLowerCase().indexOf(firstWord) !== -1 && modNotes[tk].length > 0)
+        return { topicKey: tk, doc: modNotes[tk][0] };
+    }
+  }
+  return null;
+}
+
+function openNotesFromQ(btn) {
+  var mod   = btn.getAttribute('data-mod');
+  var docId = btn.getAttribute('data-doc');
+  openNotes(mod, null, docId);
+}
+
+/* ══════════════════════════════════════════════════════════
+   NOTES — SEARCH
+══════════════════════════════════════════════════════════ */
+function stripHtml(html) {
+  return html.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+}
+
+function onNotesSearch(inputEl) {
+  var q = inputEl.value.trim();
+  var body = document.getElementById('notes-body');
+  if (!body) return;
+  if (!q) { clearNotesSearch(); return; }
+  var modNotes = NOTES[notesState.activeMod];
+  if (!modNotes) return;
+  /* escape regex special chars */
+  var escaped = q.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  var re = new RegExp(escaped, 'gi');
+  var results = [];
+  Object.keys(modNotes).forEach(function(t) {
+    modNotes[t].forEach(function(doc) {
+      var text = stripHtml(doc.content);
+      var matches = text.match(re);
+      if (matches) {
+        var idx = text.toLowerCase().indexOf(q.toLowerCase());
+        var raw = text.substring(Math.max(0, idx - 60), idx + 120);
+        var snippet = raw.replace(re, function(m) { return '<mark>' + m + '</mark>'; });
+        results.push({ doc: doc, topic: t, snippet: snippet, count: matches.length });
+      }
+    });
+  });
+  /* render */
+  var html2 = '';
+  if (!results.length) {
+    html2 = '<div style="padding:2rem;text-align:center;color:#888;font-size:13px">No results found for <strong>' + q + '</strong></div>';
+  } else {
+    html2 = '<div style="font-size:11px;color:#888;margin-bottom:10px">' + results.length + ' result' + (results.length > 1 ? 's' : '') + ' for <strong>' + q + '</strong></div>';
+    results.forEach(function(r) {
+      html2 += '<div class="notes-search-result-item" onclick="selectNotesDocById(\'' + r.doc.id + '\')">'
+        + '<div class="notes-search-result-title">📄 ' + r.doc.title
+        + ' <span style="font-size:10px;color:#888;font-weight:400">(' + r.count + ' match' + (r.count > 1 ? 'es' : '') + ')</span></div>'
+        + '<div class="notes-search-result-snippet">…' + r.snippet + '…</div>'
+        + '</div>';
+    });
+  }
+  body.innerHTML = '<div class="notes-search-results">' + html2 + '</div>';
+}
+
+function clearNotesSearch() {
+  var input = document.getElementById('notes-search');
+  if (input) input.value = '';
+  var body = document.getElementById('notes-body');
+  if (!body) return;
+  var modNotes = NOTES[notesState.activeMod];
+  if (!modNotes || !notesState.activeDoc) return;
+  var docContent = null, docTitle = null;
+  Object.keys(modNotes).forEach(function(t) {
+    modNotes[t].forEach(function(doc) {
+      if (doc.id === notesState.activeDoc) { docContent = doc.content; docTitle = doc.title; }
+    });
+  });
+  if (docContent !== null) {
+    body.innerHTML = docContent;
+    body.scrollTop = 0;
+    var titleEl = document.getElementById('notes-panel-title');
+    if (titleEl && docTitle) titleEl.textContent = docTitle;
+  }
+}
+
+function selectNotesDocById(docId) {
+  var input = document.getElementById('notes-search');
+  if (input) input.value = '';
+  var btn = document.querySelector('.notes-nav-doc[data-doc="' + docId + '"]');
+  if (btn) selectNotesDoc(btn);
 }
 
 /* ── Boot: load all questions then paint ── */
